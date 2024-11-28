@@ -1,0 +1,7 @@
+streamlit  # Adjust version to your current Streamlit version if needed
+torch       # Version depending on your environment (e.g., CUDA or CPU support)
+transformers
+pyvi
+pandas
+numpy
+sentencepiece
