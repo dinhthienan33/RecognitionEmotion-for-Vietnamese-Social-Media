@@ -7,10 +7,19 @@ import torch.nn as nn
 from transformers import AutoModel, AutoTokenizer
 from pyvi import ViTokenizer
 from transformers import get_linear_schedule_with_warmup, AutoTokenizer, AutoModel, logging
-
 import warnings
 warnings.filterwarnings("ignore")
 logging.set_verbosity_error()
+from dotenv import load_dotenv
+import os
+
+# Load environment variables from .env file
+load_dotenv()
+
+# Access the variables
+viso_model_path = os.getenv('VISO_MODEL_PATH')
+phobert_model_path = os.getenv('PHOBERT_MODEL_PATH')
+
 ############ MODEL SETUP ############
 class VisoBert(nn.Module):
     def __init__(self, n_classes):
@@ -34,7 +43,7 @@ class VisoBert(nn.Module):
 tokenizer = AutoTokenizer.from_pretrained("uitnlp/visobert")
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 model = VisoBert(n_classes=7).to(device)
-state_dict = torch.load('models/visobert_fold6.pth', map_location=device)
+state_dict = torch.load(viso_model_path, map_location=device)
 model.load_state_dict(state_dict, strict=False)  # `strict=False` ignores unexpected keys
 model.eval()
 
@@ -74,11 +83,11 @@ st.set_page_config(
 c1, c2 = st.columns([0.32, 2])
 
 with c1:
-    st.image("images/logo.png", width=85)
+    st.image("images/dhuit.jpg", width=85)
 
 with c2:
     st.caption("")
-    st.title("Zero-Shot Text Classifier")
+    st.title("Phân loại cảm xúc tiếng việt trên mạng xã hội")
 
 if not "valid_inputs_received" in st.session_state:
     st.session_state["valid_inputs_received"] = False
@@ -90,25 +99,26 @@ MainTab, InfoTab = st.tabs(["Main", "Info"])
 with InfoTab:
     st.subheader("Đồ án môn NLP_CS221.P12")
     st.markdown(
-        "[Link github ](https://github.com/) "
+        "[Link github ](https://github.com/dinhthienan33/Classification-for-Vietnamese-Text) "
     )
     st.subheader("Thành viên")
     st.markdown(
         """
-    - [Lê Trần Gia Bảo ](https://docs.streamlit.io/)
-    - [Đinh Thiên Ân ](https://docs.streamlit.io/library/cheatsheet)
-    - [Huỳnh Trọng Nghĩa](https://www.amazon.com/dp/180056550X) (Getting Started with Streamlit for Data Science)
+    - [Lê Trần Gia Bảo ](MSSV : 22520105)
+    - [Đinh Thiên Ân ](MSSV: 22520010)
+    - [Huỳnh Trọng Nghĩa](MSSV: 22520003)
+    - [Nguyễn Vũ Khai Tâm] (MSSV: 22521293 
     """
     )
-with MainTab:x  
+with MainTab:  
     st.write("")
     st.markdown(
         """
-    Classify keyphrases on the fly with this mighty app. No training needed!
+    Ứng dụng phân loại câu thành 1 trong 7 cảm xúc : Enjoyment, Disgust, Sadness, Anger, Surprise, Fear, and Other.
     """
     )
     genre = st.radio(
-    "What's your favorite movie genre",
+    "Choose model to classify keyphrases",
     ["VisoBert", "PhoBert"],
     index=0,
 )
@@ -121,7 +131,7 @@ with MainTab:x
         new_line = "\n"
 
         pre_defined_keyphrases = [
-            "lo học đi . yêu đương lol gì hay lại thích học sinh học",
+            "lo học đi . yêu đương gì hay lại thích học sinh học",
             "uớc gì sau này về già vẫn có thể như cụ này :))",
             "per nghe đi rồi khóc 1 trận cho thoải mái . đừng cố gồng mình lên nữa"
         ]
@@ -181,7 +191,7 @@ with MainTab:x
                     x = self.fc(x)
                     return x
             model = PhoBert(n_classes=7).to(device)
-            state_dict = torch.load('models\phobert_fold1.pth', map_location=device)
+            state_dict = torch.load(phobert_model_path, map_location=device)
             model.load_state_dict(state_dict, strict=False)
             model.eval()
         

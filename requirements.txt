@@ -5,3 +5,4 @@ pyvi
 pandas
 numpy
 sentencepiece
+python-dotenv
