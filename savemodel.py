@@ -32,7 +32,7 @@ class SentimentClassifier(nn.Module):
         return x
 
 # Load tokenizer and device configuration
-tokenizer = AutoTokenizer.from_pretrained("uitnlp/visobert", use_fast=False)
+tokenizer = AutoTokenizer.from_pretrained("uitnlp/visobert", use_fast=True)
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 # Initialize model and load weights
@@ -61,7 +61,7 @@ api.upload_folder(
     folder_path=save_directory,
     repo_id=repo_id,
     repo_type="model",
-    token="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"
+    token="hf_YOUR_TOKEN"  # Replace with your Hugging Face token
 )
 
 print(f"Model uploaded to https://huggingface.co/{repo_id}")

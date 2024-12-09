@@ -1,0 +1,4 @@
+name: dev_env
+channels:
+  - defaults
+prefix: D:\anaconda\envs\dev_env

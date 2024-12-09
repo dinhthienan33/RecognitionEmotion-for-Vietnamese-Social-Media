@@ -1,5 +1,4 @@
 ############ 1. IMPORTING LIBRARIES ############
-
 import streamlit as st
 import pandas as pd
 import torch
@@ -79,11 +78,10 @@ st.set_page_config(
 )
 
 ############ CREATE THE LOGO AND HEADING ############
-
-c1, c2 = st.columns([0.32, 2])
+c1, c2 = st.columns([1, 3])
 
 with c1:
-    st.image("images/dhuit.jpg", width=85)
+    st.image("images/logouit.webp", width=150)
 
 with c2:
     st.caption("")
@@ -107,7 +105,7 @@ with InfoTab:
     - [Lê Trần Gia Bảo ](MSSV : 22520105)
     - [Đinh Thiên Ân ](MSSV: 22520010)
     - [Huỳnh Trọng Nghĩa](MSSV: 22520003)
-    - [Nguyễn Vũ Khai Tâm] (MSSV: 22521293 
+    - [Nguyễn Vũ Khai Tâm] (MSSV: 22521293)
     """
     )
 with MainTab:  
@@ -133,7 +131,7 @@ with MainTab:
         pre_defined_keyphrases = [
             "lo học đi . yêu đương gì hay lại thích học sinh học",
             "uớc gì sau này về già vẫn có thể như cụ này :))",
-            "per nghe đi rồi khóc 1 trận cho thoải mái . đừng cố gồng mình lên nữa"
+            "nghe đi rồi khóc 1 trận cho thoải mái . đừng cố gồng mình lên nữa"
         ]
 
         keyphrases_string = f"{new_line.join(map(str, pre_defined_keyphrases))}"
