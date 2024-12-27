@@ -5,237 +5,164 @@ import torch
 import torch.nn as nn
 from transformers import AutoModel, AutoTokenizer
 from pyvi import ViTokenizer
-from transformers import get_linear_schedule_with_warmup, AutoTokenizer, AutoModel, logging
-import warnings
-warnings.filterwarnings("ignore")
-logging.set_verbosity_error()
 from dotenv import load_dotenv
 import os
+import warnings
+from groq import Groq
+# Suppress warnings and logging
+warnings.filterwarnings("ignore")
+from transformers import logging
+logging.set_verbosity_error()
 
-# Load environment variables from .env file
+# Load environment variables
 load_dotenv()
-
-# Access the variables
 viso_model_path = os.getenv('VISO_MODEL_PATH')
 phobert_model_path = os.getenv('PHOBERT_MODEL_PATH')
 
 ############ MODEL SETUP ############
-class VisoBert(nn.Module):
-    def __init__(self, n_classes):
-        super(VisoBert, self).__init__()
-        self.bert = AutoModel.from_pretrained("uitnlp/visobert")
+class EmotionClassifier(nn.Module):
+    def __init__(self, model_name, n_classes=7):
+        super(EmotionClassifier, self).__init__()
+        self.bert = AutoModel.from_pretrained(model_name)
         self.drop = nn.Dropout(p=0.3)
         self.fc = nn.Linear(self.bert.config.hidden_size, n_classes)
         nn.init.normal_(self.fc.weight, std=0.02)
         nn.init.normal_(self.fc.bias, 0)
+
     def forward(self, input_ids, attention_mask):
-        last_hidden_state, output = self.bert(
-            input_ids=input_ids,
-            attention_mask=attention_mask,
-            return_dict=False # Dropout will errors if without this
-        )
-
+        _, output = self.bert(input_ids=input_ids, attention_mask=attention_mask, return_dict=False)
         x = self.drop(output)
-        x = self.fc(x)
-        return x
+        return self.fc(x)
 
-tokenizer = AutoTokenizer.from_pretrained("uitnlp/visobert")
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-model = VisoBert(n_classes=7).to(device)
-state_dict = torch.load(viso_model_path, map_location=device)
-model.load_state_dict(state_dict, strict=False)  # `strict=False` ignores unexpected keys
-model.eval()
+def initialize_model(model_name, model_path, n_classes=7):
+    model = EmotionClassifier(model_name, n_classes).to(device)
+    state_dict = torch.load(model_path, map_location=device)
+    model.load_state_dict(state_dict, strict=False)
+    model.eval()
+    return model
 
-class_names = ['Enjoyment', 'Disgust', 'Sadness', 'Anger', 'Surprise', 'Fear', 'Other']
-
-def infer(text, tokenizer, max_len=120):
+def infer(text, tokenizer, model, max_len=120):
     text = ViTokenizer.tokenize(text)
-
-    encoded_review = tokenizer.encode_plus(
-        text,
-        max_length=max_len,
-        truncation=True,
-        add_special_tokens=True,
-        padding='max_length',
-        return_attention_mask=True,
-        return_token_type_ids=False,
-        return_tensors='pt',
+    encoded = tokenizer.encode_plus(
+        text, max_length=max_len, truncation=True, add_special_tokens=True,
+        padding='max_length', return_attention_mask=True, return_tensors='pt'
     )
-
-    input_ids = encoded_review['input_ids'].to(device)
-    attention_mask = encoded_review['attention_mask'].to(device)
-
+    input_ids = encoded['input_ids'].to(device)
+    attention_mask = encoded['attention_mask'].to(device)
     output = model(input_ids, attention_mask)
     _, y_pred = torch.max(output, dim=1)
+    return class_names[y_pred]
+def llm_infer(query):
+    prompt= f"""
+    Hãy phân loại câu dưới đây thành 1 trong 7 lớp sau : 'Enjoyment', 'Disgust', 'Sadness', 'Anger', 'Surprise', 'Fear', 'Other'
+    Chỉ trả lời bằng 1 trong 7 lớp trên.Không trả lời bằng câu hỏi hoặc câu trả lời không liên quan.
+    Query:
+    {query}
+    """
+    chat_completion = client.chat.completions.create(
+        messages=[
+            {
+                "role": "user",
+                "content": prompt,
+            }
+        ],
+        model="llama3-8b-8192",
+    )
 
-    return class_names[y_pred]  # Return the predicted class
+    return chat_completion.choices[0].message.content
+# Initialize device and class names
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+class_names = ['Enjoyment', 'Disgust', 'Sadness', 'Anger', 'Surprise', 'Fear', 'Other']
 
-
-############ 2. SETTING UP THE PAGE LAYOUT AND TITLE ############
-
+############ 2. STREAMLIT SETUP ############
 st.set_page_config(
-    layout="centered", page_title="Zero-Shot Text Classifier on VietNamese social network comments", page_icon="❄️"
+    layout="centered", page_title="Vietnamese Emotion Classifier", page_icon="❄️"
 )
 
-############ CREATE THE LOGO AND HEADING ############
+# Logo and heading
 c1, c2 = st.columns([1, 3])
-
 with c1:
     st.image("images/logouit.webp", width=150)
-
 with c2:
-    st.caption("")
-    st.title("Phân loại cảm xúc tiếng việt trên mạng xã hội")
-
-if not "valid_inputs_received" in st.session_state:
-    st.session_state["valid_inputs_received"] = False
+    st.title("Phân loại cảm xúc tiếng Việt trên mạng xã hội")
 
 ############ TABBED NAVIGATION ############
-
 MainTab, InfoTab = st.tabs(["Main", "Info"])
 
 with InfoTab:
     st.subheader("Đồ án môn NLP_CS221.P12")
-    st.markdown(
-        "[Link github ](https://github.com/dinhthienan33/Classification-for-Vietnamese-Text) "
-    )
+    st.markdown("[GitHub Repository](https://github.com/dinhthienan33/Classification-for-Vietnamese-Text)")
     st.subheader("Thành viên")
-    st.markdown(
-        """
-    - [Lê Trần Gia Bảo ](MSSV : 22520105)
-    - [Đinh Thiên Ân ](MSSV: 22520010)
+    st.markdown("""
+    - [Lê Trần Gia Bảo](MSSV: 22520105)
+    - [Đinh Thiên Ân](MSSV: 22520010)
     - [Huỳnh Trọng Nghĩa](MSSV: 22520003)
-    - [Nguyễn Vũ Khai Tâm] (MSSV: 22521293)
-    """
-    )
-with MainTab:  
-    st.write("")
-    st.markdown(
-        """
-    Ứng dụng phân loại câu thành 1 trong 7 cảm xúc : Enjoyment, Disgust, Sadness, Anger, Surprise, Fear, and Other.
-    """
-    )
-    genre = st.radio(
-    "Choose model to classify keyphrases",
-    ["VisoBert", "PhoBert"],
-    index=0,
-)
+    - [Nguyễn Vũ Khai Tâm](MSSV: 22521293)
+    """)
 
+with MainTab:
+    st.markdown("""
+    Ứng dụng phân loại câu thành 1 trong 7 cảm xúc: Enjoyment, Disgust, Sadness, Anger, Surprise, Fear, Other.
+    """)
+    genre = st.radio("Choose model", ["VisoBert", "PhoBert","LLM"], index=0)
     st.write("You selected:", genre)
-    st.write("")
 
-    with st.form(key="my_form"):
-        MAX_KEY_PHRASES = 50
-        new_line = "\n"
+    # Load the selected model and tokenizer
+    if genre == "VisoBert":
+        tokenizer = AutoTokenizer.from_pretrained("uitnlp/visobert")
+        model = initialize_model("uitnlp/visobert", viso_model_path)
+    elif genre == "PhoBert":
+        tokenizer = AutoTokenizer.from_pretrained("vinai/phobert-base")
+        model = initialize_model("vinai/phobert-base", phobert_model_path)
+    else :
+        client = Groq(
+            api_key=os.getenv("GROQ_API_KEY"),
+        )
 
+    with st.form(key="classifier_form"):
         pre_defined_keyphrases = [
             "lo học đi . yêu đương gì hay lại thích học sinh học",
             "uớc gì sau này về già vẫn có thể như cụ này :))",
             "nghe đi rồi khóc 1 trận cho thoải mái . đừng cố gồng mình lên nữa"
         ]
-
-        keyphrases_string = f"{new_line.join(map(str, pre_defined_keyphrases))}"
-
         text = st.text_area(
-            "Enter keyphrases to classify",
-            keyphrases_string,
-            height=200,
-            help=f"At least two keyphrases for the classifier to work, one per line, {MAX_KEY_PHRASES} keyphrases max.",
-            key="1",
+            "Enter keyphrases to classify", "\n".join(pre_defined_keyphrases),
+            height=200, help="Enter one keyphrase per line (max 50)."
         )
+        submit_button = st.form_submit_button("Submit")
 
-        text = text.split("\n")
-        linesList = list(dict.fromkeys(filter(None, text)))
+    if submit_button:
+        lines = list(filter(None, map(str.strip, text.split("\n"))))[:50]
+        if not lines:
+            st.warning("❄️ No keyphrases provided!")
+        else:
+            if(genre == "LLM"):
+                results = [{"Phrase": phrase, "Predicted Class": llm_infer(phrase)} for phrase in lines]
+            else:
+                results = [{"Phrase": phrase, "Predicted Class": infer(phrase, tokenizer, model)} for phrase in lines]
+            df = pd.DataFrame(results)
+            st.success("✅ Classification Completed!")
+            st.write(df)
 
-        if len(linesList) > MAX_KEY_PHRASES:
-            st.info(
-                f"❄️ Only the first {MAX_KEY_PHRASES} keyphrases will be reviewed to preserve performance."
+            # Download results
+            @st.cache_data
+            def convert_df(dataframe):
+                return dataframe.to_csv(index=False).encode("utf-8")
+
+            st.download_button(
+                "Download Results as CSV", convert_df(df),
+                file_name="classification_results.csv", mime="text/csv"
             )
-            linesList = linesList[:MAX_KEY_PHRASES]
 
-        submit_button = st.form_submit_button(label="Submit")
+############ SIDEBAR HISTORY ############
+st.sidebar.header("Lịch sử truy vấn")
+if "history" not in st.session_state:
+    st.session_state.history = []
 
-    if not submit_button and not st.session_state.valid_inputs_received:
-        st.stop()
-
-    elif submit_button and not linesList:
-        st.warning("❄️ There is no keyphrase to classify")
-        st.session_state.valid_inputs_received = False
-        st.stop()
-
-    elif submit_button or st.session_state.valid_inputs_received:
-
-        if submit_button:
-            st.session_state.valid_inputs_received = True
-        if(genre == 'PhoBert'):
-            tokenizer = AutoTokenizer.from_pretrained("vinai/phobert-base")
-            class PhoBert(nn.Module):
-                def __init__(self, n_classes):
-                    super(PhoBert, self).__init__()
-                    self.bert = AutoModel.from_pretrained("vinai/phobert-base")
-                    self.drop = nn.Dropout(p=0.3)
-                    self.fc = nn.Linear(self.bert.config.hidden_size, n_classes)
-                    nn.init.normal_(self.fc.weight, std=0.02)
-                    nn.init.normal_(self.fc.bias, 0)
-
-                def forward(self, input_ids, attention_mask):
-                    last_hidden_state, output = self.bert(
-                        input_ids=input_ids,
-                        attention_mask=attention_mask,
-                        return_dict=False # Dropout will errors if without this
-                    )
-
-                    x = self.drop(output)
-                    x = self.fc(x)
-                    return x
-            model = PhoBert(n_classes=7).to(device)
-            state_dict = torch.load(phobert_model_path, map_location=device)
-            model.load_state_dict(state_dict, strict=False)
-            model.eval()
-        
-        results = []
-        for phrase in linesList:
-            sentiment = infer(phrase, tokenizer)
-            results.append({"Phrase": phrase, "Predicted Class": sentiment})
-
-        df = pd.DataFrame(results)
-
-        st.success("✅ Classification Completed!")
-        st.write(df)
-    ############ CREATE SIDEBAR FOR HISTORY ############
-    # Initialize the session state to track history if it doesn't already exist
-    if "history" not in st.session_state:
-        st.session_state.history = []
-
-    # Sidebar layout
-    st.sidebar.header("Lịch sử truy vấn")
-    st.sidebar.write("Lịch sử truy vấn của người dùng sẽ được lưu ở đây.")
-
-    # Display history in the sidebar
-    if st.session_state.history:
-        for i, entry in enumerate(st.session_state.history[::-1], 1):  # Reverse the list to show recent first
-            st.sidebar.markdown(f"**{i}.** {entry}")
-    else:
-        st.sidebar.write("Chưa có gì hết.")
-
-    # Clear history button
-    if st.sidebar.button("Clear History"):
-        st.session_state.history = []  # Reset the history
-        st.sidebar.success("History cleared.")
-
-    ############ RECORD INPUTS TO HISTORY ############
-    # After processing inputs, add them to history
-    if submit_button or st.session_state.valid_inputs_received:
-        if submit_button:  # Add new inputs only when submitted
-            st.session_state.history.extend(linesList)
-
-        @st.cache_data
-        def convert_df(dataframe):
-            return dataframe.to_csv(index=False).encode("utf-8")
-
-        st.download_button(
-            label="Download Results as CSV",
-            data=convert_df(df),
-            file_name="classification_results.csv",
-            mime="text/csv",
-        )
+if submit_button:
+    st.session_state.history.extend(lines)
+    for i, entry in enumerate(st.session_state.history[::-1], 1):  # Reverse the list to show recent first
+        st.sidebar.markdown(f"**{i}.** {entry}")
+if st.sidebar.button("Clear History"):
+    st.session_state.history = []
+    st.sidebar.success("History cleared.")

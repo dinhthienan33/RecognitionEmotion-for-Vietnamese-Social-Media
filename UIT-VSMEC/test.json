@@ -1,0 +1,3467 @@
+{
+    "0": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "người ta có bạn bè nhìn vui thật"
+    },
+    "1": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": "cho nghỉ viêc mói đúng sao goi là kỷ luật"
+    },
+    "2": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "kinh vãi 😡"
+    },
+    "3": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "nhà thì không xa lắm nhưng chưa bao giờ đi vì sợ bị đè bẹp luôn người =)))))"
+    },
+    "4": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "bố không thích nộp đấy mày thích ý kiến không"
+    },
+    "5": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "bắt cóc bỏ đĩa . quanh đi quẩn lại chỉ khổ dân đen thôi !"
+    },
+    "6": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "per khi nào bạn có bằng xe ôtô thì bạn mới hiểu . sai thì đã có ca"
+    },
+    "7": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "một hành động đẹp đầy tính nhân văn ☺️☺️"
+    },
+    "8": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "anh nhỏ nhẹ xin 100k rồi trước khi đi còn chào người đẹp , đi cẩn thận \""
+    },
+    "9": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "per trình mày vẫn còn thấp chán =))"
+    },
+    "10": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "mấy ai được như vậy ??"
+    },
+    "11": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "có ai như tao vô đọc bình luận 🤣 tao cười tao xĩu"
+    },
+    "12": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "ủa má . 2 đứa yêu nhau vô duyên và sân si giống nhau vậy ?"
+    },
+    "13": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "góp vui cho chủ thớt 😂😂"
+    },
+    "14": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "sống 17 năm chưa crush ai bao giờ"
+    },
+    "15": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "ổng quay thiệt mà sao chửi ổng thế . không quay sao máy bạn xem được đó :))"
+    },
+    "16": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "thần kinh cái đầu mày …"
+    },
+    "17": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "nghe ngọt thế :(("
+    },
+    "18": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "sao lại cứ phải thế nhỉ"
+    },
+    "19": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "mệt vãi .. mà cừời cũng vãi ??????"
+    },
+    "20": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "kinh khủng thật :(("
+    },
+    "21": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "hậu duệ mặt trời đấy chứ đùa đâu nhá 😗😗"
+    },
+    "22": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "tôi ở phú yên và anh này nói rất chuẩn < 3"
+    },
+    "23": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "đứa nào bị táo bón thâm niên cứ ra cầu này mà nhảy đảm bảo hiệu quả ngay lần đầu trải nghiệm 🤣🤣🤣"
+    },
+    "24": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": "trơi ơi sao lại cháy chứ"
+    },
+    "25": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "có những người không có ý thức bỏ quần áo rách hoặc mặc rồi để vào tủ để đỡ phải đi vứt ..."
+    },
+    "26": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "per khi ế nhưng vẫn phải giương mắt nhìn bọn nó ân ái"
+    },
+    "27": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "per tiến cử bản thân nào"
+    },
+    "28": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "vẫn chọn tech là ngân hàng đồng hành"
+    },
+    "29": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "per dạo này ít tung tăng hơn xưa nên hơi trầm cảm dồi chăng 😳"
+    },
+    "30": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": "dume sao sao nó nói tiếng việt được vậy"
+    },
+    "31": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "kêu gọi thì lói thế thôi chứ dân nó vẫn dùng apple như thường"
+    },
+    "32": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "nhưng tao đéo có crush"
+    },
+    "33": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "từ nay ho , thì phải kiếm chỗ nào nằm tạm"
+    },
+    "34": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": "tao đéo ngờ được đây là trường tao :))))"
+    },
+    "35": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "yêu nghề thực sự"
+    },
+    "36": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": ":))) ra thấy nó xấu chó thì lại về chặn số à"
+    },
+    "37": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "này là xạo chó chứ nguyên giá gì . kinh doanh là phải lừa lọc ... lừa giỏi diễn đạt thì giàu"
+    },
+    "38": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "ý thức con ruồi là chủ yếu .. thì ngập rác là chuyện đương nhiên ."
+    },
+    "39": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "phim hay thật nhưng cái kết hơi khó hiểu :v chốt lại là đáng đồng tiền bát gạo :v"
+    },
+    "40": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "trời đụ thằng con trời đánh"
+    },
+    "41": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "má , chơi dị ai chơi lại , mấy ba"
+    },
+    "42": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "bọn biến thái"
+    },
+    "43": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "nào thức tỉnh đi các bạn ơi 😃"
+    },
+    "44": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "chắc chắn bố của bạn này là một người vui tính chứ không phải khó tính . khiếu khôi hài bạn ấy ảnh hưởng từ bố ."
+    },
+    "45": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "chất lượng âm thanh bản này hình như nghe hay hơn bản gốc hồi mấy năm trước nhiều < 3"
+    },
+    "46": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "mặt chúng bạn kiểu lại đéo được trả tiền rồi 😞"
+    },
+    "47": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "mình chưa từng thấy phim nào ý nghĩa như phim này cả , nó dạy cho ta về nhiều mặt trong cuộc sống , khi vui , khi buồn"
+    },
+    "48": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "nhìn thôi cũng đau lòng :))"
+    },
+    "49": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "xem cái con cặc gì , tắt đi"
+    },
+    "50": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": "sao có dầu ăn ở đây nhỉ ?"
+    },
+    "51": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "dưới nước không nhìn được , kiểu gì chả có đứa sờ mông sờ .... dcm súc vật :)"
+    },
+    "52": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "tao rất sợ mất đứa tỏ ra như thế"
+    },
+    "53": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "per ơi .... anh muốn anh và nó sẽ bảo vệ đời em 😎"
+    },
+    "54": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "tao cũng thế mà ba tao vứt hết mẹ rồi"
+    },
+    "55": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "đến cái camera nó cũng hắt hủi mày :))) chớt đi chứ sống nàm gì nữa"
+    },
+    "56": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "hú hồn cái lồn còn nguyên :)"
+    },
+    "57": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "vẫn thắc mắc tại sao trước mình thi vào 10 lại dễ thế"
+    },
+    "58": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "có vẻ người dân hơi mê tín quá 😂"
+    },
+    "59": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "mình trả hùa , mình vẫn đỗ nhắn tin"
+    },
+    "60": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "tôi còn chẳng lấy ảnh lớp cho nữa"
+    },
+    "61": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "per sáng mai kiểu gì cũng về tới nhà :))"
+    },
+    "62": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "đợt trước con em tao đi học cũng bị con kia hăm đòi đánh . tao lên tận trường kêu nó ra bảo mày muốn đánh tao cho tụi mày đánh đó . học sinh mà bố láo"
+    },
+    "63": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "tôi cũng muốn được cảm thấy như vậy ??"
+    },
+    "64": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "xăm chữ trái và phải lên mu bàn tay ... hy vọng là mày vẫn biết phâ biệt mặt chữ :))"
+    },
+    "65": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "sang năm quyêt định đi ngủ cho đỡ mỏi mắt"
+    },
+    "66": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "khi nào vụ này kết thúc thì mình uống cf trung nguyên trở lại . sợ làm giàu cho cô per lắm ."
+    },
+    "67": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "đến năm cuối đại học rồi lúc nhớ lại đéo có gì :))"
+    },
+    "68": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "t chắc bỏ nhà ra đi khi ở với bố mẹ kiểu này quá . vẫn may bố mẹ tao không hề giống này tí nào"
+    },
+    "69": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "đứa con gái nào mà đề nghị là biết bị ma nhập mà né nha mấy cha"
+    },
+    "70": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "đéo phải ai cũng được đặt tên cho 1 \" thuật bán hàng \" trong kinh doanh đâu . chấm hết"
+    },
+    "71": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "per mấy con đĩ lồn cục súc ... dòng thứ quỷ yêu đel làm gì cũng rượt cho sấp mặt luôn"
+    },
+    "72": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "hình như bồ tao cũng tập gym 😶😶"
+    },
+    "73": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "lúc trước chạy xe đạp đi ngang qua đàn vịt có mấy con ngỗng lẫn trong đó . thế là dume tụi nó rượt tao vừa chạy vừa la cái thứ âm thanh nghe \" ứ ứ \" \" hiếp em đi \" làm tao sợ tụt lol :))"
+    },
+    "74": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "tên của tao nghe rất bình thương , không có gì đặc sắc nên nhiều khi nghĩ cùng buồn tẹo ."
+    },
+    "75": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "thích :)))) đi làm vui hay không là có đồng nghiệp tốt đừng chơi xấu mình là được :))"
+    },
+    "76": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "per xem đi mày sẽ sướng thi nhìn con nhện bị giết 😂"
+    },
+    "77": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "chạm đáy nỗi đau 😞"
+    },
+    "78": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "thế ông bác sĩ đó bây giờ còn sống không 🙂"
+    },
+    "79": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "😞 đó sẽ là những kỉ niệm thật đẹp"
+    },
+    "80": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "per chưa bị rượt mà đọc bình luận thấy sợ quá , chắc tao sợ chó không là gì với con này :)"
+    },
+    "81": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "bắt cóc như chơi đó mậy , be careful"
+    },
+    "82": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "đảng ta bao dung thật < 3"
+    },
+    "83": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "rất tiếc em vẫn chưa gặp được anh :(((("
+    },
+    "84": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "đái mẹ ra quần ??"
+    },
+    "85": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "có ai không nghe thấy nói gì mà toàn xem hình người con gái ấy không 😂"
+    },
+    "86": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "đẹp trai ghê :))"
+    },
+    "87": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "dụ đấy ... đừng tin"
+    },
+    "88": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "tán cây hình trái tim thì phải"
+    },
+    "89": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "làm việc vất vả mới được miếng ăn mà chúng nó khốn nạn thật"
+    },
+    "90": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "dể thương quá ah"
+    },
+    "91": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "tốt nhất không miễn phí cho những thể loại người như vậy . nhắc nhỉ thẳng thắn"
+    },
+    "92": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "gần thôi :))) giờ nhìn lại đề thi và không hiểu sao mình ra trường được :)))"
+    },
+    "93": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "những đứa như vậy quá hèn"
+    },
+    "94": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "hồi xưa làm fanpage được gạ kèo 7 triệu nhưng nhất quyết không bán . cảm thấy quyết định đúng đắn nhất trong đời"
+    },
+    "95": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "per lúc xưa toàn nấu bằng bếp nay"
+    },
+    "96": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "per luôn yêu đời và luôn yêu công việc em nhé"
+    },
+    "97": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "ngày trước thì đòi dấn thân vào showbiz , giờ lại đòi lấy chồng đại gia , đâu ra lắm thế"
+    },
+    "98": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "phim này coi lâu lắm ùi , mà mỗi năm phải coi lại 1 - 2 lần mới đủ , thực sự cực kì hay và sâu sắc , nhạc phim hay mà diễn cũng rất nhập nữa , amir khan đỉnh nhất ^.^/"
+    },
+    "99": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "đần mặt ra nhìn nó y như con ngu , còn cười theo nó nữa , xong bị nó phát hiện ."
+    },
+    "100": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "bà tôi giờ mất mấy năm rồi giờ lớn lên rồi mà chả tặng được bà món quà nào cả 😭😭😭"
+    },
+    "101": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "hãm lồn là khi mình đéo ra gì còn đi nói người khác 🤭"
+    },
+    "102": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "ý thức như lol vậy ai cũng như mày thì máy bay quá tải dẫn tới chết chùm , ý thức như lol vậy mà còn đăng lên"
+    },
+    "103": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "ai chửi admin ngu chứng tỏ eq thấp tệ"
+    },
+    "104": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "nấu mì 2 tôm là vô địch"
+    },
+    "105": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "mấy anh thiệt là nóng bỏng !!"
+    },
+    "106": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "qua chạy xe nẹt nẹt bốc đầu bố ai dám dô"
+    },
+    "107": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "chia se cho ai thích thể hiện nè"
+    },
+    "108": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "em mày cách mày bao nhiêu tuổi ?"
+    },
+    "109": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "thật chứ thấy bạn nam kia cứu con chó không cần nhìn mặt cũng biết đẹp trai rồi 😆"
+    },
+    "110": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "đó là những câu chuyện buồn mà :(("
+    },
+    "111": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "diễn còn cứng quá à , kiểu biết rồi mà còn giả bộ bất ngờ :))"
+    },
+    "112": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "làm người khác thỏa mãn bằng mùi hương của chính bản thân"
+    },
+    "113": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "dkm xấu mặt những thằng tập gym vkl tao đéo hiểu sao thằng này nó lại thích đi đường tiểu ngạch là sao"
+    },
+    "114": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "chỉ cần cho em nó 1 điểm tựa , em nó sẽ không ngán cả thế giới :))"
+    },
+    "115": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "per một lần thôi không có lần thứ hai đâu 😊"
+    },
+    "116": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "con đường này chắc dành cho mấy người như tôi"
+    },
+    "117": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "đã bị đuổi 1 lần . đéo lgi cũng bị dí"
+    },
+    "118": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "lựa chọn cách thức tuyển như thế nào thì tốt quá rồi"
+    },
+    "119": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "lùi về sau 3 bước đi . ngứa cả con mắt"
+    },
+    "120": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "tội bà vợ"
+    },
+    "121": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "đẳng cấp :))"
+    },
+    "122": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "nhìn mặt ổng nhẫn nhìn kìa :)) tao chờ sen tao ra thôi , lúc đó tao tung hê hết 😑"
+    },
+    "123": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "dễ thương 😂"
+    },
+    "124": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "đỉnh rồi , hiệu ứng tốt :))) ấn tượng vãi_chưởng luôn"
+    },
+    "125": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "ko có biển cấm dừng đỗ nhưng đỗ thò đầu ở ngã 3 kia là rất bố láo ."
+    },
+    "126": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "khi mày tắt điện thoại một buổi sáng và tao nhảy tưng tưng lên :)"
+    },
+    "127": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "vèo cái đã 7 năm 😕"
+    },
+    "128": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "đm ngồi chờ đã rồi các tổng đài viên đều bận 😭😭😭"
+    },
+    "129": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "nó đòi mượn áo thôi mà . thằng này kỳ ..."
+    },
+    "130": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "cả ngàn tin nhắn không đổi lại được 1 lần xem :(("
+    },
+    "131": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "đúng là tốt quá lai thành lạm dụng 😶"
+    },
+    "132": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "t cũng thế . đang ngồi chơi với con , vợ nó đắp mặt nạ lù lù bước vào . xém đái trog quần ??????"
+    },
+    "133": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "cũng là 1 mạng người nên các cụ đừng phũ mồm chửi người ta . mong anh ấy sớm siêu thoát . a di đà phật !!!"
+    },
+    "134": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "đây gọi là nghiệp vật"
+    },
+    "135": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "có khi không biết thế nào là tự ái đâu :)))"
+    },
+    "136": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "cho thơm miếng nào yêu quá cơ"
+    },
+    "137": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "liên quan gì tới mày . mời đám cưới chắc gì mày đã đi . hỏi hỏi con cặc"
+    },
+    "138": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "thích cái câu \" em không yêu anh nữa \"😊😊"
+    },
+    "139": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "cho tao hỏi lúa nó dính mưa vầy ròi thì làm được gì không ."
+    },
+    "140": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "nghe bạn này nói dễ thương zị"
+    },
+    "141": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "làm ca nào không quan trọng , quan trọng là có đồng bọn bảo yến nguyễn hạnh 🤣🤣🤣"
+    },
+    "142": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "đỗ ngay góc cua thế có ngày sứt mõm ??"
+    },
+    "143": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "phát ngán ."
+    },
+    "144": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "em ý cute vãi !"
+    },
+    "145": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "per về nhà mà thể hiện"
+    },
+    "146": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "đúng . a có tầm nhìn . tâm nữa . mình biết"
+    },
+    "147": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "củ cà rốt thôi mà cái mẹt đã vây nếu là miếng thịt thì không bít mẹt ra sao nhể 😂"
+    },
+    "148": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "cái miệng nói chuyện không có người phụ nữ nào có trời ơi thật là có duyên khiếp quá đi thôi"
+    },
+    "149": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "tuyệt vời quá cần nhiều tấm lòng tốt hơn nua thật là ý nghĩa"
+    },
+    "150": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "đi đâu cũng gặp mấy cái thứ"
+    },
+    "151": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "per sao bố lại đủ bình tĩnh để xem hết cái trailer này nhỉ . _ . sợ vãi"
+    },
+    "152": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": "sao mà đỉnh dữ vậy trời"
+    },
+    "153": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "hai thằng đó sẽ .. nhau , cô về nhà nằm mơ típ đi cô bé"
+    },
+    "154": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "thương .. hy vọng sớm có người cưu mang bé"
+    },
+    "155": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "mức thu cao nhất - đồng ý vì số liệu nó thể hiện như vậy , chứ còn hiệu quả thì mình không biết đúng không 😂 mỗi lần vô vcb là hiểu phải đợi mỏi mòn , không như những nh khác"
+    },
+    "156": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "cần lắm nhiều vụ ly hôn như thế 😂😀😀😁🤣🤣"
+    },
+    "157": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "sời , lừa làm sao được tao :))"
+    },
+    "158": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "có bao nhiêu đôi ngôn tình , cớ sao lìa xa mình ta :(("
+    },
+    "159": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "đây là một câu chuyện buồn không chỉ riêng tao"
+    },
+    "160": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "con gái tao thì suốt ngày hêy siri bắt chước mẹ 😂"
+    },
+    "161": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "chạy ios cho máu 😂"
+    },
+    "162": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "khâm phục !!! quá khâm phục !!!"
+    },
+    "163": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "per dạo này béo quá rùi :("
+    },
+    "164": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "mau khoẻ nhé :d"
+    },
+    "165": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "quá đơn rản , bạn thân yêu ơi ,"
+    },
+    "166": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "tao học nhân sự đây còn đang lo thất nghiệp đây này"
+    },
+    "167": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "cắt cả thắt lưng da của bố để làm ná 😂😂"
+    },
+    "168": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "per hẹn xem phim này nữa nha mày 😛"
+    },
+    "169": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": "per vẫn là con mẻ . nay hàng họ to quá ;))))"
+    },
+    "170": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "đỡ mua 5k tiền sổ rồi , kaka"
+    },
+    "171": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": "tinh trùng đâu lắm thế"
+    },
+    "172": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "per giỏi phết đấy mỗi tội nghịch thôi , được cái làm từ thiện nhiều ."
+    },
+    "173": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "ngọt sớt :)))"
+    },
+    "174": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "tuổi thơ mình lớp 4 đã cảm nắng 1 anh chàng từ 1 viên phấn vôi ."
+    },
+    "175": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "nhìn cái bản mặt bà ta mà ghét thay . tham vô độ . dân mình nhiều nhà dăn ba tỉ còn khó ...."
+    },
+    "176": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "câu hỏi thú vị 😃😃😃"
+    },
+    "177": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "cô ấy rất tốt , nhưng tôi biết thứ nào tốt đều không dành cho mình"
+    },
+    "178": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "đm xem mãi quay lưng đi chửa được bước lại dừng :))"
+    },
+    "179": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "không gì hơn ngoài tình thân"
+    },
+    "180": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "lạ lùng nhỉ , cưỡng hôn trong thang máy thì phạt có 200k coi thường phụ nữ , bây giờ phạt 10 triệu vì đàn lợn chết (???)"
+    },
+    "181": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "thật ra nhiều lúc bị bố mẹ chửi không hiểu vì lí do gì và những câu chửi ấy có những từ không chấp nhận nổi"
+    },
+    "182": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "cay mắt lắm , mà nhìn nó lại nhớ nhiều kỉ niệm"
+    },
+    "183": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "per giảm tốc ở bình dương tuổi gì với cái này ."
+    },
+    "184": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "per cười tức bụng nà vợ 😄"
+    },
+    "185": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "wtf , tao đã làm gì sai ☹️☹️☹️"
+    },
+    "186": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "tao không sợ đi làm mệt mỏi tao chỉ sợ không có niềm vui với nó"
+    },
+    "187": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "lúc nó điên lên nó chã triệu hồi cả nhà mày ra ấy chứ nhổn"
+    },
+    "188": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "còn không đụng vào được tóc của sai mà tự xưng vô địch"
+    },
+    "189": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "mất niềm tin vào đàn ông chứ chưa từng mất niềm tin vào tình yêu ;"
+    },
+    "190": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "bọn có tí quan hệ hay thích khoe , ngay chị gì quận phó quận x còn gọi cả công an , chủ tịch phường ra để dằn mặt dân ??"
+    },
+    "191": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "uống hết bia rồi mới về ,😂😂😂"
+    },
+    "192": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "anh thứ 2 cute thế =)))"
+    },
+    "193": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "hơi lạ nhỉ phải nhắn lại cho khách chứ grab thế này bị hủy chuyến làm sao"
+    },
+    "194": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "chú nghĩ cháu rất giỏi văn và là người có suy nghĩ trưởng thành rồi 💐 rất đáng yêu và tếu giống mấy con giặc nhà chú ❤️"
+    },
+    "195": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "đám người lớn văn hóa lùn đẻ ra một đám trẻ vô học . bọn mất dạy này là nhà dột từ nóc ấy mà . nên đuổi học cho lũ ngu học ấy về để nhà tiếp nối sự vô học của gia đình chúng nó"
+    },
+    "196": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "chủ tịch giả làm ăn xin và cái kết . đừng bao giờ coi thường người nghèo"
+    },
+    "197": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "có ai chỉ tự yêu bản thân như tôi không :("
+    },
+    "198": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "không khoe thì không sao . khoe ra mai lại còn cái gốc ... haha 😁"
+    },
+    "199": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "nhiệt tình + ngu dốt là phải trả giá bằng tiền mặt 😂😂"
+    },
+    "200": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "valentine là lễ tình yêu không phải ngày động dục . hãy vì một valentine lành mạnh đi các bạn trẻ 🙃🙃"
+    },
+    "201": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "thấy anh đấy làm tùm lum mà con nhện vẫn đứng im là tao biết có chiêu rồi . định gạt anh ak"
+    },
+    "202": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "có tí rượu vào nhìn đâu cũng thấy mồi nhìn gì cũng ăn được"
+    },
+    "203": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "chết luôn .. tình yêu không phân biệt . giới tính .. tình yêu ơi là tình yêu .. tao đau khổ vì mày lắm rồi ..."
+    },
+    "204": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "tôi cùng hoàn cảnh với bạn má tôi củng bệnh và từng ngày từng ngày tôi bên má tôi sợ giây phút má bỏ tôi ra đi và ngày đó củng đến ai còn mẹ hảy quí từng giây từng khắc bên mẹ"
+    },
+    "205": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "có mà bữa chạy ngược chiều trên qlo 1a tại có hẻm nhỏ để quẹo tắt , chưa kịp quẹo bị 6 anh csgt + 1 xe bắt xe tấp vô chặn đầu xe , hoảng hồn cmnl ."
+    },
+    "206": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "ếch chết tại miệng"
+    },
+    "207": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "gần 2 năm đến sớm nhất để mở cửa lớp , lúc về cũng là người là sau cùng để khóa cửa . đến giờ ra trường được 3 năm vẫn không muốn vứt chìa khóa của lớp ..."
+    },
+    "208": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "tốt nhất là cần công khai minh bạch là tốt hơn"
+    },
+    "209": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "chắc mình là thánh nguy hiểm"
+    },
+    "210": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "mong bé sớm được mua lại"
+    },
+    "211": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "nhiều tiền để làm gì ..... đạo đức xã hội thế này thì đi học đâm chém chứ học chữ làm gì nữa 😢"
+    },
+    "212": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": "má đớp chanh hùi hụi thế kia mà mặt không nhăn à"
+    },
+    "213": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": "thanh niên trả thù đời bằng cách này hả ?"
+    },
+    "214": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "bán hàng onl riết bán luôn não rồi 😂😂"
+    },
+    "215": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "per nhớ cái bếp huyền thoại của 2 đứa mình he"
+    },
+    "216": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "nam chính đẹp . nữ chính hơi già . nếu nữ chính là 1 diển viên dể thương thì xem hay hơn nhiều"
+    },
+    "217": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": "chuyển cảnh nhanh quá làm tao theo không kịp luôn á"
+    },
+    "218": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "thật ý nghĩa và hạnh phục cho 2 người họ . nhưng đâu đó trong tao vẫn thấy cái gì đó nó tởm lợn vê lờ 🤔🤔🤔"
+    },
+    "219": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "cu ̃ người it xa ̀ mày lă ́ mày .."
+    },
+    "220": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "ai cũng kiếm ăn thui ... hy vong qua video nay mọi ngươi sống có ý thức hơn ... đưng xem đồng tiền của minh to quá"
+    },
+    "221": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "chửi vậy cũng bình thường mà mọi người cứ làm quá . mẹ tao cũng suốt ngày chửi tao , tao thấy vui mà ."
+    },
+    "222": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "t đề nghị tụi mày trả cái đĩa bay cho con bé đi nghe , tới ca mà vào điều tra thì tụi mày mệt :))"
+    },
+    "223": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "thế nên thổ lộ trực tiếp vẫn hơn là tin nhắn ."
+    },
+    "224": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "từ lúc có vợ nhiều váy mặc để quay video hẳn :))))))"
+    },
+    "225": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "người việt nam mãi mãi cũng chỉ là bọn hạ cấp so với nước ngoài vì ý thức như lol có 100 năm sau thì ý thức vẫn đel bằng"
+    },
+    "226": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "ừ nhìn rợn thật =]]]]"
+    },
+    "227": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "đuma tao đang ở đấy nè , vừa đi vừa ôm túi sợ cướp :(("
+    },
+    "228": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": "phát hiện mới !!!"
+    },
+    "229": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "ai cũng chỉ muốn cho con tất cả nhưng vì được không có mà thôi , có con thì mới biết lòng cha mẹ"
+    },
+    "230": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "moẹ ! nghe cái tên đã hấp con mẹ nó dẫn lắm rồi đây này ! đjln ??????"
+    },
+    "231": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "per không bao giờ quên được hihi"
+    },
+    "232": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "nói câu trước đá câu sau vẫn là sai bét đúng không cả nhà"
+    },
+    "233": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "ngu người"
+    },
+    "234": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "nói xong còn chả dám ăn nữa 😂😂"
+    },
+    "235": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "cứu tao :(( tao sợ rắn"
+    },
+    "236": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "t thấy tội nghiệp thằng cải"
+    },
+    "237": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "anh yêu đứa bướng lắm vì mỗi lần em bướng là anh treo em lên sàn nhà đập mát tay"
+    },
+    "238": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "chỉ mới hỏi về người khác giới cái là bị gán là thích bạn đó luôn mí sợ :("
+    },
+    "239": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "tối mà tắt đèn gặp mặt nó với cặp mắt nó là tao còn sợ hơn thấy ma"
+    },
+    "240": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "công nhận chữ đẹp . 🤧"
+    },
+    "241": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "áo phông dễ thương quá anh ơiiii"
+    },
+    "242": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "còn nhiều người có cuộc sống khốn khổ hơn ta :)"
+    },
+    "243": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "mèo nhà em thì cho tiền cũng không ra khỏi cửa"
+    },
+    "244": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "đào đúng chó cậy chủ =)))"
+    },
+    "245": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": ":v crush có người yêu rồi"
+    },
+    "246": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "cái con đồ chơi đó mua ở đâu nhỉ . cười đéo nhặt được mồm . 😂😂😂"
+    },
+    "247": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "nghĩ lại ngày xưa cũng như 2 đứa nhỏ ??"
+    },
+    "248": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "hôm nay quên vào đọc bình luận trước !! tính xem con nhện nước bạn khác nhện nước mình như thế nào ! ai ngờ đâu khác xa quá !! d mày mày adm ơi làm hết hồn !!"
+    },
+    "249": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "má cười ỉa luônn"
+    },
+    "250": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "1 năm lật tàu trật đường ray của vận tải đường sắt việt nam !"
+    },
+    "251": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "mày làm tao nhớ em gái ghê , mai sinh nhật con bé rồi mà tao đang đi làm xa nhà , không về được .......... 😑"
+    },
+    "252": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "cái câu liếm củi chỏ sao sai được nhỉ"
+    },
+    "253": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "chỉ cần nghĩ tới cảnh đó là máu kinh sôi trào như núi lửa 😂😂😂"
+    },
+    "254": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "tư ̀ hô ̀ i ba ̣ n â ́ y chuyê ̉ n trươ ̀ người thi ̀ chă ̉ người co ̀ n ai đô ́ i xư ̉ tô ́ tao vơ ́ i tao như vâ ̣ y nư ̃ anh . :("
+    },
+    "255": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "đợi chúng nó đang ăn lấy xe cứu hỏa phun nước ôi tao hình dung ra cảnh đó thật tuyệt"
+    },
+    "256": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "đã check in thành công và mãi vẫn chưa gặp được người ấy là ai :(("
+    },
+    "257": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "đôi khi thích nói chuyện chỉ vì nói chuyện hợp và vì thích nói chuyện chứ thật ra chả phải yêu đương hay thích kiểu trai gái gì"
+    },
+    "258": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "mình thấy sợ mấy con rắn quá trời , mà cái gì mình sợ là mình hay muốn tiêu diệt -))"
+    },
+    "259": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "hút ít thôi và hãy chích nhiều hơn 😐"
+    },
+    "260": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "em cũng như con chó thôi , nếu anh đủ kiên nhẫn thì mọi chuyện đã khác rồi 😪"
+    },
+    "261": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "per khi trong người khó ở thì nên vào đây . động lực để nôn"
+    },
+    "262": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "ê tao đi nhật chưa được 1 năm mà xem video này làm tao loạn ngôn ngữ ghê . thỉnh thoảng phải dừng video ngẫm câu nó nói nghĩa gì"
+    },
+    "263": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "về thôi , nghỉ ngơi rồi nở rộ tiếp"
+    },
+    "264": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "ông mặt trời dễ thương hha"
+    },
+    "265": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "vậy nên cứ lờ đi mà sống tiếp"
+    },
+    "266": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "vậy vài bửa trời nắng mình không mang quần nằm dưới nắng cho nó nở ra :))"
+    },
+    "267": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "những cử chỉ đẹp làm từ thiện cho người nghèo hay thiếu đến lấy thừa đi đến cho"
+    },
+    "268": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "ý tưởng hay 😂"
+    },
+    "269": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "cả thế giới thấy hay trừ tao"
+    },
+    "270": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "toàn mấy con lợn ký gửi với xách tay thì đợi đấy mà xếp hạng :))"
+    },
+    "271": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "nhanh vãi mới thấy xong"
+    },
+    "272": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "sợ quá đi"
+    },
+    "273": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "tao đây chứ còn ai"
+    },
+    "274": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "bằng củi thì tao nấu suốt cho tới tận bây giờ còn bằng rơm thì chưa từng :v"
+    },
+    "275": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "thấy dòng này quen quen . thấy đọc bình luận của ai á . haha . buồn cười 🤣 🤣 🤣"
+    },
+    "276": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "tuy chưa viết hết nhưng tao người khác sẽ hiểu là viết cái gì"
+    },
+    "277": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "làm ở đâu cũng vậy cũng có đầy rẫy những khó khăn nhưng trọng hơn là làm cùng những đồng nghiệp như thế nào"
+    },
+    "278": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "không nha cậu :) mình đi bình thường nha =))"
+    },
+    "279": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "bác không ở lại làm tô phở đã 🙃🙃🙃"
+    },
+    "280": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "per tao thấy mấy ảnh thật đẹp trai"
+    },
+    "281": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "do mày ngu đéo ghi chỗ khác :))"
+    },
+    "282": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "phàm việc quan trọng trong thiên hạ , cứ về hỏi vợ , vợ nói sao cứ làm ngược lại chắc chắc sẽ đúng !"
+    },
+    "283": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "à ra là ngứa mắt vì người ta đỗ ô tô mà không phải trả tiền . khi nào người ta mất tiền mới hài lòng ."
+    },
+    "284": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": "cái toilet hay nhỉ vào đấy được thoải mái nhìn nhau mà trò chuyện trong lúc ị ... :)"
+    },
+    "285": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "dễ thương ha"
+    },
+    "286": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "chia buồn cùng khổ chủ"
+    },
+    "287": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "cao su đó khai thắc làm sao có mủ"
+    },
+    "288": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "sao mà có nhiều người ngu quá . đậu xe xát đường ray xe lửa . còn mấy thg bình luận cũng ngu theo xe lửa chạy theo đường ray mà kêu nó bẻ lái qua chúc xíu . bẻ đi đâu được mà bẻ"
+    },
+    "289": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "cháu xl ông trước . cháu cũng không có í gì chê bai đâu ạ . nhưng cháu nhìn móng dài bẩn quá . đang ăn mà cháu cũng run run ."
+    },
+    "290": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "giờ cứ thành lập các tổ an ninh . bắt được bao nhiêu . chiên free cho các tiệm bia hết là bao tuyệt chủng 😂😂"
+    },
+    "291": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "cay và đắng nghe mấy ông lớn tuổi toàn kêu thế thôi"
+    },
+    "292": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "làm video thì ăn bớt chắp chắp như heo lại , đang coi nghe ăn phát mất con mẹ nó hứng , vô duyên"
+    },
+    "293": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "cha mẹ tao còn cãi lộn nhau vì không biết ngày sinh tháng sinh của tao là dương hay âm 😢😢"
+    },
+    "294": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "người ta đã phải bỏ tiền . bỏ sức ra mới có bữa cơm từ thiện nv mà còn có những người vô ý thức như vậy"
+    },
+    "295": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "oaaaaaaa ...... thực sự rất tạo động lực và niềm tin cho người khác đó < 3 rất thích nụ cười và sự thoải mái tự tin của anh chị < 3"
+    },
+    "296": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "nhớ đến lại buồn . chuyện tình chúng ta chẳng đi được đến đâu cả"
+    },
+    "297": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": "xuất sắc quá"
+    },
+    "298": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "nhà tao vẫn nấu . à mà lâu lâu tao về nấu một lần thì không cháy cũng nát"
+    },
+    "299": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": "thiết kế đẹp quá"
+    },
+    "300": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": "per không nhận dạng được mặt bả luôn"
+    },
+    "301": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "18t đủ trách nhiệm pháp lý rồi 😏"
+    },
+    "302": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "vô học !😡😡😡. tý tuổi tưởng vậy là hay !"
+    },
+    "303": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "ai thử rồi cho xin tấm hình cái coi nào"
+    },
+    "304": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "bố mẹ thì còng lưng nuôi ăn học vất vả không mua được thì thôi , bất hạnh cái gì , bất hạnh cái gì"
+    },
+    "305": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "đúg là dân miền tây , chưa nói đã chửi tục rồi . vậy mà cũg đăg lên được . ở gần phòng mấy người này , đầu mình không yên được ."
+    },
+    "306": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "nó thả thính xong nó chạy mất .."
+    },
+    "307": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "bị nó chặn đầu mấy lần khóc sướt mướt luôn . mấy con yêu nghiệt này còn dữ hơn chó"
+    },
+    "308": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "lò xo chắc giờ không còn nữa rồi"
+    },
+    "309": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "chơi cái trò mất dạy :))"
+    },
+    "310": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "trong luâ ̣ tao co ́ khung hi ̀ nh pha ̣ tao bă ́ n không . ghê tơ ̉ mày con qua ́ i na ̀ y qua ́"
+    },
+    "311": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "tao chỉ lên ngắm cảnh tí xíu mà mày cũng dìm tao :))))"
+    },
+    "312": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "tim vỡ nát"
+    },
+    "313": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "có biết giận là gì đâu 😌🙂"
+    },
+    "314": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "lương này là tính luôn quá trình tham nhũng ăn bớt ăn xén rồi đó ! tụi mày chưa đủ trình đó thì lấy tư cách gì nói người ta nói xạo ?"
+    },
+    "315": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "per không lấy được vợ thì có thể đi tâp gym đêt lấy chồng 😁😁"
+    },
+    "316": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "đéo thể tin tưởng một ai được"
+    },
+    "317": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "thái độ lồi lõm có ngày răng rụng đầy đường đấy =))"
+    },
+    "318": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "thử đụng vô tao coi dume mấy thằng lol cặn bã"
+    },
+    "319": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "chắc anh phải đáng yêu lắm luôn ý nhể 🤗🤗"
+    },
+    "320": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "muốn bảo vệ và chăm sóc người đấy"
+    },
+    "321": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "hết sức nguy hiểm và có phần dại dột !"
+    },
+    "322": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "ôi thôi , cưng quá :v"
+    },
+    "323": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "nghe kể mà thèm ạ :'("
+    },
+    "324": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "per vãi xem phải cỡ này . , đoạn nó nhếch môi bố mày sợ suýt đái ra quần dume 😑"
+    },
+    "325": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "tao . đôi lúc nghĩ lại thì tao vẫn thấy sợ tao lúc tức giận ."
+    },
+    "326": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "nó mà là đặc vụ thật thì lại ngớ người 😂"
+    },
+    "327": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "các chàng trai của tôi về đến nhà chưa ??"
+    },
+    "328": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "liệu có còn tồn tại cô gái nào chấp nhận một thằng vừa nghèo vừa xấu đặc biệt lại còn yếu sinh lý như tôi không"
+    },
+    "329": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "per quan tâm per như là 1 đứa em gái thôi . đừng có mà ảo tưởng nha ."
+    },
+    "330": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "vì ghét nhau thôi"
+    },
+    "331": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "một con ngựa hoang đúng nghĩa ..... đầy tài năng nhưng đang tiếc là không gặp được hlv và những đồng đội hỉu mình"
+    },
+    "332": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "hời ơi ... cưng xĩu"
+    },
+    "333": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "t chỉ chờ đết lúc nó lôi ra xem được cục to như ngón tay không"
+    },
+    "334": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "nuôi kiểu đéo gì lại để nó như thế này ??? thằg chủ có tâm hồn thối rữa à ??"
+    },
+    "335": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "hút cần xong đúng là đời toàn màu hồng em nhỉ . nói chậm vãi :))))"
+    },
+    "336": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": "cục cuối khủng bố vãi vậy :("
+    },
+    "337": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "per xem xong hình như tao mới bị thêm bệnh tiểu đường"
+    },
+    "338": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "mất dạy từ nhỏ , đẹp mặt khi bố mẹ nó đang ngồi xem tivi , cứ tưởng hay"
+    },
+    "339": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": "wow sản phẩm tốt ngoài mong đợi luôn á"
+    },
+    "340": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "không cướp ở đâu đi cướp ngân hàng của nhà nước 🤣🤣🤣🤣"
+    },
+    "341": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "đấy thấy chưa con người ta khổ như thế"
+    },
+    "342": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": "quàooo hay vậy sao , chà chà =))))"
+    },
+    "343": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "nuốt được cục tiền đó cũng hay đó ( y )"
+    },
+    "344": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "mày nhớ đặt bạn ý cho những lần gọi sau nhé !"
+    },
+    "345": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "nhiệt tình cộng ngu dốt bằng phá hoại"
+    },
+    "346": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "lỗi tại cái gậy thôi mà 🤣🤣🤣"
+    },
+    "347": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": "hả hả .. tới giờ ăn hả"
+    },
+    "348": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "chưa tỏ tình với ai bao giờ , nhưng tao bức xúc với những người không tôn trọng quyền riêng tư như vậy"
+    },
+    "349": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "mỗi lần nó cắt thì tao không muốn thấy mặt nó một tuần , nhìn xấu vãi"
+    },
+    "350": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "t đéo hiểu ai bày ra cái này . xàm lol chết mẹ . người ta viết nhạc cho nghe rồi làm video xàm , mày thề là không hát theo đi"
+    },
+    "351": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "con quỷ này dí bao dai ... thù dai hơn cả chó , tuổi thơ đi ngang qua bầy ngỗng là y như rằng đúng con quỷ đó nó dí tao"
+    },
+    "352": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "nhìn là biết đỏ chót rồi"
+    },
+    "353": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "đựng túi nilon là chất rồi 🤣"
+    },
+    "354": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "tan rã hết rồi , giờ toàn đánh lẻ thôi 😭😭😭"
+    },
+    "355": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "ăn học bao nhiêu năm rồi mà vẫn ngu"
+    },
+    "356": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "cái lol mẹ đóng vào mồm thì có ở đấy mà đóng băng"
+    },
+    "357": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "khoảnh khắc tao nhận ra tao đã từng rơi vào hoàn cảnh bế tắc này 😌😌"
+    },
+    "358": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "t nói té 1 cái không dập mề thua gì cũg thua .."
+    },
+    "359": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "cái này mà đơn giản ? chị à , là chị nghĩ đơn giản thôi =]]]]"
+    },
+    "360": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "tao ở thanh hà và nhà tao không quả vải nào hết 😂"
+    },
+    "361": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "hãy mang cô ấy sang việt nam ngay"
+    },
+    "362": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": ":)) thật là kì lạ"
+    },
+    "363": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "bả thôi đó , gặm đi ."
+    },
+    "364": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "per tụi bây có thấy nó vô lí vlonee hôngg 🙂"
+    },
+    "365": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "họ sáng tạo , cải chế cho đời thêm xanh thì bảo họ luồn cúi ."
+    },
+    "366": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "per thua là hết cf để uống ."
+    },
+    "367": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "đơn giản vậy thôi là đủ ❤️"
+    },
+    "368": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "mày nói thôi mà tao nghĩ cũng thấy buồn rồi :((("
+    },
+    "369": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "đái mẹ ra quần"
+    },
+    "370": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "còn tôi tự nhủ dù lớp học tự ý bỏ về hết tôi cũng phải ở lại học đến tiết cuối cùng . hết giờ tôi cứ ngồi đó rồi từ từ bước chậm ra cửa ngoái đầu nhìn lại ."
+    },
+    "371": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "làm bát phở đã bác ơi"
+    },
+    "372": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "bị ám ảnh hồi bé đi nhổ răng , không dám đi nha sĩ nữa :((( huhu 😭😭"
+    },
+    "373": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "tôi trưởng thành vclll"
+    },
+    "374": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "dậy tắt đồng hồ báo thức kìa , giờ này còn ngủ được à :v"
+    },
+    "375": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "lỗi tại cái cây hay lỗi tại anh , tại anh nặng quá nên cây ...."
+    },
+    "376": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "tự nhiên thấy tụi con gái khóc tu tu , thế là mình lủi ra ghế đá trước lớp ngồi . tự nhiên cô dạy văn cũng ra theo xong ôm mình khóc ,"
+    },
+    "377": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "đến ông cũng chẳng dám xơi"
+    },
+    "378": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "hiếu nghĩa . nhìn cái này nhớ mắc cười má đào chúc quá 😀😀😀"
+    },
+    "379": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "ôi trời nguy hiểm thế"
+    },
+    "380": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "tội cho mấy thằng đang xoay tiền mua bánh trung thu cho vợ thằng khác ăn"
+    },
+    "381": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "mấy thằng ở ngoài bình luận gặp tao tao xé mỏ từng đứa . cha mẹ đéo dạy để xã hội dạy nhé . còn phèn lắm"
+    },
+    "382": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "dỡn ngu gặp những tg yếu tim đùa kiểu này nó lên cơn lăn đùng ra ăn cho hết ..."
+    },
+    "383": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "cười ỉa :))"
+    },
+    "384": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "trước em cũng hắt xì 1 cái lưng khụ xuống như ông già đau vãi"
+    },
+    "385": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "thôi xong 1 chiếc ôto . chắc tối nay ăn không ngon , nhậu không yên rồi ."
+    },
+    "386": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "cuteeeeeee 😊😊😊😊😊"
+    },
+    "387": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "bà tao mất rồi :<"
+    },
+    "388": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "nó cười mà muốn rụng tim 😂💔"
+    },
+    "389": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "ui còn chưa kịp đi xem đã rút rồi :(("
+    },
+    "390": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "con đĩ mèo mất dạy ! gặp tao tao đá cái mày , dám đánh con thỏ của tao , bởi tao ghét vxl"
+    },
+    "391": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": "em ấy còn viết đẹp hơn mình luôn á"
+    },
+    "392": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "em chân thành nên em tổn thương !"
+    },
+    "393": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "dume mình tưởng tinh trùng :)"
+    },
+    "394": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "béo quá không ai yêu thì về đây em nuôi nè"
+    },
+    "395": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "rút kinh nghiệm năm ngoái 😂😂😂😂😂👍👍👍"
+    },
+    "396": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "đ biết tình yêu là gì mà ăn rồi cứ đi thả thính đậu má"
+    },
+    "397": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "per móc lên tới não :))"
+    },
+    "398": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "sợ vãi nồi tao còn tg thằng kia bay ra cơ :))))"
+    },
+    "399": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "cũng đúng :))"
+    },
+    "400": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "tao nghe nói đứa bé còn nhỏ là không được chụp hình đâu mày"
+    },
+    "401": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "bị bắt nạt im re hà hiền khô luôn thấy tội nghiệp ai dè tới chừng ...... ha ha ha"
+    },
+    "402": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "mới yêu thôi nhá yêu lâu rồi chán nhau rồi á thử xem đường đứa nào đứa đấy đi"
+    },
+    "403": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "con bố mẹ nào không dạy được để xã hội dạy cho , bố mẹ bất hợp tác để làng xóm hợp tác"
+    },
+    "404": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "thằng lái tàu quá đáng , bẻ lái qua tý có sao đâu :))"
+    },
+    "405": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "đừng đùa với nước bạn"
+    },
+    "406": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "tiền mất tật mang . xe đã nát rồi giờ còn phải đền cách cửa cho tàu nửa"
+    },
+    "407": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "ưng dã man luôn"
+    },
+    "408": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "rất có thể nó đang pr trá hình để bán hàng"
+    },
+    "409": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "per mắc dại quá mà"
+    },
+    "410": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": "per lại lật nữa hả"
+    },
+    "411": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "các em thật là vãi"
+    },
+    "412": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "cầm cái búa ra"
+    },
+    "413": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": "per vẽ ổ điện bá vãi em ạ 😂"
+    },
+    "414": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": "thế không đạt được gì à"
+    },
+    "415": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "cuộc sống tạo ta áp lực .."
+    },
+    "416": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": "tư tưởng đột phá đấy chứ"
+    },
+    "417": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "đối với tình yêu thì thời gian có tác dụng xây đắp chứ không còn là phá huỷ mọi thứ nữa . ngưỡng mộ hai ông bà ❤️❤️❤️"
+    },
+    "418": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "thời đi học tao còn bị bạt tai với bắt quỳ trên bục giảng luôn , tội phá , như này thấm gì đâu :3 phụ huynh ngày nay cứ làm quá lên"
+    },
+    "419": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "bây giờ thế mới biết tác dụng của con cái 😢"
+    },
+    "420": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "đây là thằng chó"
+    },
+    "421": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "trẻ trâu việt nam thật đáng sợ"
+    },
+    "422": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "ngày đẹp trời là ngày được nghỉ làm , đi những nơi mình thích , với người mình thương , ăn những món ăn ngon . xong về ôm nhau ngủ :)))"
+    },
+    "423": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "mày bị ngu hả đĩ chó :) hết chỗ viết à :) thích viết thì tìm chỗ nào đéo trôi á :) hoặc mua giấy về viết chứ địt mẹ viết rồi lại viết làm tao buồn mày :)"
+    },
+    "424": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "t dọn quán hát mà muốn diệt sạch mấy con ngu :))) đuỵt ăn sinh nhật mà cỡ nát hết cốc , bôi bánh hết lên ghế bàn thì ks , đây bôi cả lên loa , ti vi , trần nhà .... dume cái :))) đồ điện bôi lên để tao dọn tao bị giật chết à :))"
+    },
+    "425": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "giáo viên tiếng anh mà không biết tiếng anh ?"
+    },
+    "426": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "tao có hiểu đéo gì đau"
+    },
+    "427": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "sao không xúm lại rỉa lông tụi đầu bếp nhỉ ."
+    },
+    "428": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "khang khang 1 thời cùng nhau vui say ! bjo thì khác rồi thân ai nấy lo hở chị hố hố ;))"
+    },
+    "429": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "phát hiện nghi vấn đổ vỏ :))"
+    },
+    "430": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "tuổi thơ bất hạnh .. học mẫu giáo mà cạnh trường học là 1 bầy ngỗng . sáng nào tao cũng được chạy bộ tập thể dục nhờ bọn nó"
+    },
+    "431": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": ":v cướp xong trừ khi ông bơi sông . chứ đi đường :)))) với cái bộ dạng đó . ai trả thấy :)))"
+    },
+    "432": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "không biết ô ý có nhận con nuôi không nhỉ ?"
+    },
+    "433": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "1 chút đắng , chút chua cay , với 1 chút ngọt ngào ở đâu đó 😞"
+    },
+    "434": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "quá đau lòng nhưng chúng ta phải chấp nhận với điều đó"
+    },
+    "435": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "mở ra mà thấy vậy chắc tao sợ quá mà chết luôn mất :)"
+    },
+    "436": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": "ai làm được cây cầu khó đi này tài quá"
+    },
+    "437": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "tình anh em thật đáng khâm phục 😍😍😍"
+    },
+    "438": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "xàm bà cố luôn ??????"
+    },
+    "439": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "chuẩn bị đón chờ mùa nhiệt miệng lưỡi :v"
+    },
+    "440": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "per lần sau hãy hưởng ứng câu chuyện của tao như này này"
+    },
+    "441": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "các cháu giờ lợi hại quá :<"
+    },
+    "442": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "bất công"
+    },
+    "443": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "chưa bao giờ nghe ngươ ̀ i ta chửi thề mà đáng êu đến vậy lun =))!"
+    },
+    "444": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "ghi nguồn vào page ạ :)"
+    },
+    "445": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "mấy đứa thấy mình hiền nó làm tới hà .. quá đáng lắm luôn á !"
+    },
+    "446": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "mày dek làm được ghen ak"
+    },
+    "447": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "không đấm vào mặt là may rồi :))"
+    },
+    "448": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "chưa bao giờ bắn trúng thứ gì 😆."
+    },
+    "449": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "chuẩn rồi per dù mệt mỏi nhưng vẫn vui :)))"
+    },
+    "450": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "thả mẹ tay ra :vậy đằng nào em kia cũng không sống nổi 😅"
+    },
+    "451": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "không có bạn trai ... thì giận ai 😑😑"
+    },
+    "452": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "năm xưa mày cũng ôm gối đứng cửa phòng c như này này per 🤣🤣🤣"
+    },
+    "453": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "bác bảo vệ như lồn"
+    },
+    "454": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "dell hiểu sao ngày sưa tao có thể cầm nó trưen tay đi câu cá 😳😳😳 nhớ lại vẫn thấy ớn 😂"
+    },
+    "455": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "đạp xe xíu rã chân ông này đạp như tay đua xe"
+    },
+    "456": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": "ơ thế sai chỗ mẹ nào nữa ??"
+    },
+    "457": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "bọn sống thất đức không có tâm chưa nói tới tầm ! bảo sao tâm hồn trẻ trí tuệ kém phát triển ảnh hưởng tới thể chất cũng như tâm sinh lí trong tương lai"
+    },
+    "458": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "cũng nhờ thầy khắt khe uốn nén bỏ thói hư tật xấu , bây giờ mỗi lần họp lớp đều nhắc tới thầy và vô cùng kính trọng"
+    },
+    "459": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "ừm ngồi đất đỡ mỏi châm"
+    },
+    "460": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "có đứa nào vừa coi vừa nuốt nước miếng như tao không ?"
+    },
+    "461": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "tư duy của họ hơn hẳn 1 cái đầu 👍"
+    },
+    "462": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "cấp 1 hiền lành ít nói , ngồi gần 1 cô bé cái gì cũng nhường cô ấy , nhường đến mức nhường luôn tập sách , để bà già phải dẫn ra nhà nó lấy lại ! 😂😂😂"
+    },
+    "463": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "ngu nhất năm"
+    },
+    "464": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "kiểu em sai rồi . a xin lỗi em đi 😂😂"
+    },
+    "465": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "chỉ mong ông trời sẽ bù đắp cho con cháu của họ sau này 😔😔"
+    },
+    "466": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "bà mẹ nó giật mình"
+    },
+    "467": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "chỉ có bọn óc chó . đú đởn mới phàn nàn ."
+    },
+    "468": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "chưa 1 lần vấn vương thời c3 =))"
+    },
+    "469": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "em đỗ 6 trường đại học ở mỹ , còn hàng trăm thằng đổ em luôn rồi đó , em biết không . trong đó có anh 🤪"
+    },
+    "470": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "nên xử lý nghiêm khắc"
+    },
+    "471": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "cười đau bụng :)))"
+    },
+    "472": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "nghe cái lời rõ đéo hỉu và cái tên cũg không liên quan"
+    },
+    "473": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "giỡn ngu kiểu đó người ta bị tim giật mình chết rồi sao . giỡn với mình kiểu đó mình đánh cho vỡ mồm luôn"
+    },
+    "474": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "kiên nhẫn với 1 con chó chứ chắc gì đã kiên nhẫn với bố mẹ hay người thân bên cạnh mình ."
+    },
+    "475": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "cứ tưởng là người yêu =))"
+    },
+    "476": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "đẹp trai quá ak"
+    },
+    "477": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "làm ơn đi .. đừng bám theo tao nua được không"
+    },
+    "478": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "aii may mắn thì có vị ngọt còn aii thiếu may mắn thì họ chỉ toàn gặp những vị cay vị đắng của đờii :))"
+    },
+    "479": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "thằng đoạn cuối mặc áo hồng đang định gải đít nhưng vì thấy rắn nên anh ấy đã hết ngứa"
+    },
+    "480": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "eo ôi thằng nhóc áo xanh cuối cùng , sao này lớn lên chắc là sói ca haha"
+    },
+    "481": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "đã dâm tâm còn biến thái 🤢"
+    },
+    "482": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "rất ghét bọn trộm cắp"
+    },
+    "483": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "nhìn mặt đã thấy đóng vai ác rồi"
+    },
+    "484": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "per coi chừng bị vậy nha chưa haha"
+    },
+    "485": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "đây là đâu ? cái này là như nào thế ??"
+    },
+    "486": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "tuổi thơ thật đáng yêu . chỉ có người lớn dẫn sai đường các em thôi"
+    },
+    "487": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "thua cả người ta 😞"
+    },
+    "488": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "per , nhơ cai thời sv ở tro , :)"
+    },
+    "489": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "ông lão cục súc"
+    },
+    "490": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "công khai và phạt thật nặng : đuổi học , cấm thi 10 năm"
+    },
+    "491": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "cưng ghê ❤️"
+    },
+    "492": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "vị nước mắt , dù cảm xúc như nào thì khi có nó cũng thật đáng nhớ !"
+    },
+    "493": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "mặt nhỏ dễ thương vãi =))"
+    },
+    "494": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "thích mấy đứa này"
+    },
+    "495": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "đầu độc trẻ em mà sử như vậy là nhẹ quá chuyển công tác ra khỏi nghành"
+    },
+    "496": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "mày xinh thế ? tao ốm tí đã xấu hoắc"
+    },
+    "497": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "xịt nước là ướt rồi"
+    },
+    "498": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "hy vọng sẽ mau tìm được anh người yêu thật tốt để 5 năm sau có một gia đình như vậy ❤️❤️"
+    },
+    "499": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "mới ngày nào bidv còn đứng nhất mà .. haizzz"
+    },
+    "500": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "chỉ là bạn chưa biết yêu đúng cách thoiii"
+    },
+    "501": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "cái ảnh giống hệt mình :))"
+    },
+    "502": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "thời gian thấm nhuần yêu thương , nếu đủ kiên nhẫn thì hạnh phúc sẽ đến bên , không sợ sệt 😁"
+    },
+    "503": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "nhất định sẽ làm được"
+    },
+    "504": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "câu nói \" ngu thì chết chứ bệnh tật gì \" tao thấy chính xác rồi đây ! dume thiệt hại tài sản còn bị phạt nữa . ngu vãi"
+    },
+    "505": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "dòm sợ thiệt 🤐"
+    },
+    "506": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "nhìn một cái rồi thôi , chuyện của những năm trước"
+    },
+    "507": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "khiêp vãi"
+    },
+    "508": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "bạn trai người khác không bao giờ làm tao thất vọng =)))))"
+    },
+    "509": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "per =)))))))))))) tao cười không biết chỗ nín lun"
+    },
+    "510": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "là do mày quá ảo tưởng"
+    },
+    "511": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "dễ thương ghê =)) nói y như mấy ông ngồi nhậu trong bàn v \" đúng không \" \" đúng chưa \" \" vui rầu \" =)))"
+    },
+    "512": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "mình rất rất muốn đi nhưng trong túi kô còn xu mẹ nào vân kiều ơi"
+    },
+    "513": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "khi bạn muốn lầy và cũng có người lầy cùng bạn =))"
+    },
+    "514": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "hay vãi ra , ai đi qua kiểu gì cũng phải đọc và mỉm cười , đánh mạnh vào tâm lý :))"
+    },
+    "515": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "thời chúng ta , đồ hỏng thì mua mới còn thời ông bà , đồ hỏng thì đem đi sửa . đó là lý do vì sao tình yêu của họ luôn bền lâu ...."
+    },
+    "516": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "mai tao ăn gà , chụp hình bình luận lại cho mày thèm chơi ??"
+    },
+    "517": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "làm bạn với mấy thể loại này cũng nhục cả người"
+    },
+    "518": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": "thật vậy luôn sao per ?"
+    },
+    "519": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "tao vừa về xong thề là ở mẹ nhà ngủ còn sướng hơn đông đéo thể nhích nổi , toàn ngắm người ??"
+    },
+    "520": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "ức chế lắm cụ ạ . đi trong phố cổ còn chưa dừng hẳn đã bị gõ cửa xua đi ."
+    },
+    "521": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "tội nghiệp , có rất nhiều em ở nông thôn bị như vậy 😢."
+    },
+    "522": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "chuẩn luôn , áp lực công việc cũng không bằng mối quan hệ với đồng nghiệp"
+    },
+    "523": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "mé bọn trẻ bây giờ"
+    },
+    "524": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "rụng cả răng khi xem không nhặt được mồm kkk"
+    },
+    "525": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "1 con giáo viên ngu + vài đứa lớn đầu tập làm người lớn nhưng bất thành = dạy ra 1 lũ học sinh mất dậy , 1 lũ đầu bò"
+    },
+    "526": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "những video như này chỉ khiến cho các cô gái càng thêm ảo tưởng về tình yêu thôi =))) # ngưngảotưởng"
+    },
+    "527": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "mong là có bảo hiểm"
+    },
+    "528": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "nếu 1 ngày per theo thằng khác và per cũng có bỏ bạn mà đi thôi huhu"
+    },
+    "529": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "cay đắng ngọt bùi . nhưng cay đắng thì thường nhiều hơn =))"
+    },
+    "530": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "tình yêu cha mẹ dành cho con cái là vô điều kiện . mình đã khóc"
+    },
+    "531": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "đúng rồi , kiên trì thêm một chút nữa đi ! :v"
+    },
+    "532": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "hên crush nay ăn chơi lành mạnh"
+    },
+    "533": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "đau đớn hơn còn là khi làm bạn cũng khó và gặp nhau coi như người dưng nước lã"
+    },
+    "534": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "cách xử lý thông minh"
+    },
+    "535": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "per mai cấm chọc tao cười nhé dume , tao mà không pass probation là do mày đấy =))"
+    },
+    "536": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "trong phim này thấy cái thằng anh hùng đạp xa đạp phế vkl"
+    },
+    "537": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "per sắp bị đuổi khỏi trường rồi nhé 😉😉"
+    },
+    "538": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": "không biết luôn á"
+    },
+    "539": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "tao tát cho bây giờ đấy"
+    },
+    "540": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "tao thề tao rất sợ ma quỷ nên tao rất không dám xem phim"
+    },
+    "541": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "điều tồi tệ nhất là kiểm tra code trên giấy ."
+    },
+    "542": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "thay vì gà chuyển sang ăn lợn , tao cungc thế nên món khoái khẩu là gà chuyển sang sườn mày ạ"
+    },
+    "543": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "ta sao khúc cuối cậu bé xịt nói chuyện hoa làm gì vậy"
+    },
+    "544": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "t được theo mẹ ra đây những 3 lần :v . uống no nước biển đs . phải công nhận nói chuyện biển đục vãi 🙄"
+    },
+    "545": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "đm mùi thế :)))"
+    },
+    "546": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "per của anh tao chứ anh mày à ??"
+    },
+    "547": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "mày tưởng ai cũng khùng giống mày hả lo xo dau"
+    },
+    "548": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "per nam dân trí thấp , ý thức như ruồi là hợp lí ."
+    },
+    "549": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "họ không cho ta là vì họ không có gì hihiiii"
+    },
+    "550": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "14 / 2 năm sau tau sẽ là ông già cô đơn ...."
+    },
+    "551": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": "gì thế này ? này là kiến thức đó hả ?"
+    },
+    "552": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "dume xem đi xem lại vẫn đéo thể nhịn được cười :v"
+    },
+    "553": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "trong 1 lần tao được mẹ cho về quê ngoại , nó nhìn tao - tao nhìn nó - và dume đầu tao chôm bôm . cđ đó dữ vãi ! sao nó không đi thi đai đen cấp quốc gia cmnl đi chứ võ công cao cường như vậy mà ở vùng qê hẻo lánh thì thật là phí của giời !!!!"
+    },
+    "554": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "còn nhỏ mà đã như thế này lớn lên ai chịu được yêu chết đi được"
+    },
+    "555": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "cậu lái xe nói chưa thấy sai gì . ?? đỗ dưới đường chứ có đỗ vào phòng khách nhà mình đâu mà kêu ."
+    },
+    "556": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "khóc không chịu được luôn , và mình cũng sẽ làm được nếu phải đánh đổi tính mạng cho 2 cô con gái bé nhỏ của gia đình mình"
+    },
+    "557": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "per bảo nó nói chuyện đi nhưng không , chỉ nhìn thôi"
+    },
+    "558": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "per đợi rụng răng rồi anh tặng quà cho em luôn háy . hhha"
+    },
+    "559": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "per giờ đi ra chỗ ăn phở cũng khó , đi bộ cũng chả chen được ??"
+    },
+    "560": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "mấy thèn cức rảnh"
+    },
+    "561": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "giun xào tỏi , đỉa xào lăn , cứt nấu đông , hỉ mũi rang cơm trộn với đờm , tởm vãi"
+    },
+    "562": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "và từ đó bà cụ sống trong hạnh phúc :))"
+    },
+    "563": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": "video mờ thế còn xác minh được , thế còn lão per đến giờ vẫn im lặng là sao ? 🙂"
+    },
+    "564": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "lúc nhỏ mẹ nấu cơm bằng bếp củi , ttao thì không biết gì thấy lửa tắt thì chụm vô : )) mẹ ra quánh cho trận vì nồi cơm khét nghẹt 😑"
+    },
+    "565": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "đm thằng mập mặt thoả mãn vãi . lần đầu tiên thấy con gái ah"
+    },
+    "566": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "dm lùi xuống rồi viết , suy ra là bạn để mất người ta là do bạn ngu chứ đéo phải đổ thừa cho cái gì"
+    },
+    "567": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "bình dị vậy thôi .. mà sao mãi tao chưa tìm được ? hix"
+    },
+    "568": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "tao thấy tai nạn giao thông là tao nói với mẹ .. con chạy ra đó để tối lên ti vi ... mẹ tao chửi sấp mặt luôn"
+    },
+    "569": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "đúng kiểu đến mùa động dục . khác gì động vật bậc thấp không"
+    },
+    "570": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "cười đấy , sau lưng nó đâm con mẹ nó dao vô hình cho chết mà vẫn sống nhăn răng luôn ."
+    },
+    "571": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "toan cao lại nữa , tao dg suy nghĩ có nên đi bằng grap về không"
+    },
+    "572": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "bày đặt viết trên cát khắc luôn vào đá cho tạt thoải mái"
+    },
+    "573": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "bài nhạc đầu tiên là nhạc phim gì nhỉ ? mình quên tên phim rồi , xin hỏi có ai biết không ạ"
+    },
+    "574": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "hn đéo có đâu nhé . dăm ba cái thứ y đg vớ vẩn :))"
+    },
+    "575": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "các cháu thật tốt , hãy thương yêu mọi người và cả loài vật nhé , may mắn và niềm vui sẽ đến với các cháu ."
+    },
+    "576": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "cảm động vleu haha"
+    },
+    "577": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "cảm thấy thay được thì thay , giáo viên bây giờ thừa nhiều mà"
+    },
+    "578": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "nghe mãi mà vẫn thấy hay"
+    },
+    "579": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "mèo nhà tao cũng từng đi lạc vì bị chó rượt tưởng mất rồi . sau mấy tháng thấy nó trở về nhà mừng vãi 😁"
+    },
+    "580": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "vẫn xinh đẹp dịu dàng trong mắt tao 😂"
+    },
+    "581": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "thấy per hất môg thằg đó bay hài lòng dễ sợ"
+    },
+    "582": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "anh sau đó , không còn là anh nữa ..."
+    },
+    "583": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "cả đời mình chỉ ước có 500tr trả nợ ngân hàng cái xe để chạy kiếm ăn ...😥😥😥"
+    },
+    "584": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "cố gắng chứ từ bỏ con cặc gì"
+    },
+    "585": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "ký ức 1 thời . nhớ"
+    },
+    "586": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "gia tộc bất hạnh :vậy"
+    },
+    "587": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "vì lợi nhuận con người ta có thể độc ác với nhau như vậy sao ???"
+    },
+    "588": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "thương anh bạn kia quá ."
+    },
+    "589": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "nhìn muốn tè ra quần rồi"
+    },
+    "590": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "nhìn dơ vãi dume :v"
+    },
+    "591": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "tao cũng ăn hại nhưng chưa bao giờ ăn hại đến nỗi phí phạm thế"
+    },
+    "592": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "sao mày không ngủ với mẹ mày luôn"
+    },
+    "593": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "phần này dù xem lại 100 lần vẫn bật khóc tình cha thật phi thường"
+    },
+    "594": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "ăn xong mất hứng đéo nói nữa"
+    },
+    "595": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "chả có gì hay ho , vô bổ"
+    },
+    "596": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "nhìn giống hai anh đang tỉnh tò với nhau ghê ( mình là hủ đừng ném đá nha 😅😅😅)"
+    },
+    "597": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "buồn nhỉ 😴😴😴"
+    },
+    "598": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "toàn lũ thất đức"
+    },
+    "599": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "per thế đéo nào mình chơi với toàn gái mà tính vẫn giống con trai . _ ."
+    },
+    "600": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "cuộc sống của mình đừng hỏi ý kiến người khác"
+    },
+    "601": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "mấy thằng mặt địt . chim chưa mọc đủ lông mà lông đã ăn vào tận não chúng mày rồi . đm chúng mày"
+    },
+    "602": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "bà về nơi phương xa mất rồi . nhưng với tớ bà là người dễ thương nhất trên đời . chỉ muốn ngả vào lòng ngoại nghe kể về những câu chuyện cổ 😘"
+    },
+    "603": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "vui vẻ chút , lạc quan chút cho đời thêm vui cũng là một cách 😂😂"
+    },
+    "604": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "hài vãi :)))"
+    },
+    "605": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "còn gì đau đớn hơn cảnh này :((("
+    },
+    "606": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "yep . chính tao . đi vệ sinh thôi cũng phải đảo qua , mà giờ thì người ta sắp đi lấy chồng rồi"
+    },
+    "607": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "còn mình nhìn như thằng ngu"
+    },
+    "608": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "thay đổi văn hóa tí đi . đường là tài sản chung của mọi người dân . và mọi người dân được phép làm những gì pháp luật không cấm ."
+    },
+    "609": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "ai thấy pha cuối phê vãi không"
+    },
+    "610": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "tội em gái đó"
+    },
+    "611": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "đứa nào nhây hơn đứa đấy thắng"
+    },
+    "612": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "hahah thú vị ghê hen"
+    },
+    "613": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "ngã nhìn cũng thấy yêu 🤣"
+    },
+    "614": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "hồi bé tôi cũng bị chửi cả ngày từ sáng chí tối ! nhưng không phải bố tôi mà là bà nội tôi !"
+    },
+    "615": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "cung quá ak"
+    },
+    "616": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "mày xinh ghê vậy :d"
+    },
+    "617": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "thương các bác quá , vất vả 10 năm trời mà bị như vậy 😭"
+    },
+    "618": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "hên là đụng nhầm người chứ đụng trúng cái là rụng trứng cả bày cả lũ -))"
+    },
+    "619": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "đau ghê"
+    },
+    "620": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "khúc mắc cười đoạn nào vậy 😑"
+    },
+    "621": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "đếm không hết nên nó vương nó vãi ấy mà"
+    },
+    "622": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "1 hình này thấy từ sáng đến giờ trên mấy page rồi 😑😑"
+    },
+    "623": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "mày ăn xong thì cút luôn dùm nha 🙂"
+    },
+    "624": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "thôi thì giả tạo đến phút chót cho tròn chữ hãm lồn"
+    },
+    "625": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "con bé bị quơ trúng nhìn đẹp như búp bê ấy < 3"
+    },
+    "626": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "bạn không có lỗi sinh ra trong nghèo khó nhưng nếu chết trong nghèo khó thì đó là lỗi của bạn"
+    },
+    "627": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "lỗi tổng hợp . đường bộ mà nằm sát đường sắt , còn ông tài xế thì đậu xe cẩu thả ."
+    },
+    "628": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "phim kinh dị vào cái trời âm u 😒"
+    },
+    "629": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "crush đéo bị thịt nhé :d nó cũng ế vãi vì tội chảnh chóa"
+    },
+    "630": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "tự nhiên coi tới khúc th bé kéo hết bạn bè tới chụp hình tao buồn cười vãi ! ông kia nghĩ ! thôi chết mẹ rồi ! kiểu này tối mới lau xong 😂"
+    },
+    "631": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "bếp dầu thời bao cấp cùng thời đôt đèn dầu"
+    },
+    "632": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "mình nghĩ đợt này bà per thua rồi . đuối lý lẫn truyền thông yếu"
+    },
+    "633": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": "bọn trẻ trung quốc thời nay ăn gì mà cao thế nhỉ"
+    },
+    "634": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "fa lâu năm có biết 14 / 2 hay 15 / 2 là ngày gì đâu , chỉ biết là ngày đi làm về và rất mệt"
+    },
+    "635": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "kinh quá . đau lắm đây . mà nhìn nổi hết da gà ra ."
+    },
+    "636": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "t đang thắc mắc là 2 thằng kia đéo hỏi thằng per à 🤔"
+    },
+    "637": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "nhìn đoạn ổng tránh nó cắn mà nhảy tưng tưng rất chi là điệu nghệ và mang trong đó cả sự tấu hài nữa 🤣🤣"
+    },
+    "638": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "đừng để râu , móng tay cắt gọn gàng . nếu mà thơm nữa thì 8d chuẩn mẹ rồi"
+    },
+    "639": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "hôm nào đi học về cũng phải đi qa , nhà nuôi lũ này ở đỉnh dốc , đi học về tới chân dốc thôi là nghe lũ quỷ đó đứng đầu dốc đón đường bọn tao rồi . méo đạp xe lên dốc nổi , dắt xe lên dốc mà muốn vứt mẹ cái xe đạp để chạy lấy thân cho rồi :(("
+    },
+    "640": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "công ty nào nhận bạn không quan trọng , quan trọng là ai giới thiệu bạn vào công ty 🤣🤣🤣🤣"
+    },
+    "641": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "đến cả khi nó nói thích mình , 1 phút sau nó lại nói chỉ trêu . mệt mỏi"
+    },
+    "642": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "ây da 1 thời"
+    },
+    "643": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "nhìn cái bản mặt bà ta mà ghét thay . tham vô độ . dân mình nhiều nhà dăn ba tỉ còn khó ...."
+    },
+    "644": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "đỡ mua cuốn sổ 5 ngàn =))"
+    },
+    "645": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "chỉ dân đen là khổ thôi . chả trách được họ khi cố gắng đi tìm may mắn ở nơi chùa chiền"
+    },
+    "646": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "còn gì đau hơn"
+    },
+    "647": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "nó vẫn luôn hiện hữu xung quanh chúng ta . hãy dùng tình yêu thương đó và cho đi ❤"
+    },
+    "648": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "3 idiots ! phim hay nhất mọi thời đại ."
+    },
+    "649": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "đi xa nó bắt cóc chết mẹ mày :)"
+    },
+    "650": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "ôi dume bọn súc vật"
+    },
+    "651": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "xuất sắc . thật sự quá đỉnh ."
+    },
+    "652": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "đúng là yêu tới đầu bạc răng long ."
+    },
+    "653": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "cho thằng khác ăn ốc bắt bố đổ vỏ à 🤣"
+    },
+    "654": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "động lực là tình yêu , gia đình là nơi để về hihi"
+    },
+    "655": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "đã thất tình xem pim này khóc cả đêm mất thôi mới đề mô mà đã khóc thút thít rồi chắc xem hết thì không biết pai làm sao .."
+    },
+    "656": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "và sau mùa vải , tàn dư còn lại là những nốt mụn 😌😌😌"
+    },
+    "657": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "mỗi lần coi lại sởn gai ốc"
+    },
+    "658": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": "con người giỏi nhỉ ."
+    },
+    "659": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "sến đụ dễ sợ 😑"
+    },
+    "660": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "tao muốn mèo nhà tao cũng tìm về được như này 😭"
+    },
+    "661": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "rãnh vãi , kiếm cái gì làm đi"
+    },
+    "662": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "per chuẩn . gọi công an cho lành . cãi cộ chẳng may sửng cồ lên không kìm được phang vào xe nó lại mệt ??"
+    },
+    "663": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "khi nào mình già rồi cũng như v nha per kkkkkkkkkk"
+    },
+    "664": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "vl gần nhà"
+    },
+    "665": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "cứu em nó với"
+    },
+    "666": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "đụ mẹ ngu à :)) có thiếu chỗ đéo nào cho mày viết khôg"
+    },
+    "667": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "tao thì sợ nhất lúc nó mới cắt tóc"
+    },
+    "668": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "được cái công tác truyền thông tốt"
+    },
+    "669": {
+        "label": "Fear",
+        "domain": "unknown",
+        "review": "nhìn rợn vãi"
+    },
+    "670": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": "đúng là ổng có vợ rồi có khác . không cần lấy áo làm tóc nữa mà có hẳn váy để mặc rồi 😂😂😂😂"
+    },
+    "671": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "haha :))) nãy giờ mấy tiếng rồi mà các bác vẫn còn căng :)))"
+    },
+    "672": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "ngưỡng mộ ông bà á . ông bà đáng yêu ghê"
+    },
+    "673": {
+        "label": "Anger",
+        "domain": "unknown",
+        "review": "thằng nào kiểu như này tao cho cạch mặt !!! đéo thích nữa 😂😂"
+    },
+    "674": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": ":)) mọi người bị sao thế ??? thích chơi với mấy đứa như vầy nè :)) hài hước đi chung cười sấp mặt luôn =)))) nhây nhây vầy mới zui chớ ? tự nhiên chửi con nhỏ thấy tội nghiệp 😡"
+    },
+    "675": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "giờ cắt bộ móng đi cái tay vẫn cứ bị phế khó mà phục hồi được"
+    },
+    "676": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "per ông đó có đôi mắt đẹp ghê"
+    },
+    "677": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "có vậy ông mới có công chuyện làm mà kiếm tiền còn la lối chửi mắng có tội nghe con ."
+    },
+    "678": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "phim gì z .. thánh nữ nào cho biết cái chủ đề dới !!"
+    },
+    "679": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "địt mẹ đời tao"
+    },
+    "680": {
+        "label": "Disgust",
+        "domain": "unknown",
+        "review": "áp dụng ở việt nam cơ mà chỉ có ăn cái đầu mày ."
+    },
+    "681": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "nó cứ sai sai thế nào ấy"
+    },
+    "682": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "còn chặt cả cây ổi của hàng xóm để lấy cái chạc làm súng đấy cứ"
+    },
+    "683": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "chắc là uncrush thôi . bố mẹ thì còng lưng ra làm cho con đi học ."
+    },
+    "684": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "chúng mày cứ cười . dm mai gần đấy có biến lại thấy anh ấy trong bộ cảnh phục thì lại tung hô quả nằm vùng quá đẳng cấp 😂😂😂"
+    },
+    "685": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "gửi nhầm video mình hát chế cho nó nghe"
+    },
+    "686": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "tự nhiên mình xem và mỉm cười theo ."
+    },
+    "687": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "bạn ăn cơm chưa ?"
+    },
+    "688": {
+        "label": "Sadness",
+        "domain": "unknown",
+        "review": "lúc thì cuốc đất è cổ ra không có giun mà câu cá 😒"
+    },
+    "689": {
+        "label": "Enjoyment",
+        "domain": "unknown",
+        "review": "các bác dẫn crush qua cây sữa nay mà hứng nước đái ve nha haha"
+    },
+    "690": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": "vợ chồng rồi mà trong sáng như này chỉ có trong phim nhỉ 😂"
+    },
+    "691": {
+        "label": "Other",
+        "domain": "unknown",
+        "review": "bep này vào binh dương dùng xuất"
+    },
+    "692": {
+        "label": "Surprise",
+        "domain": "unknown",
+        "review": "đôi mắt đằm thắm vãi"
+    }
+}
