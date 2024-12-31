@@ -18,7 +18,7 @@ This document provides a comprehensive explanation of the ViSoBERT model, introd
 - **Built upon XLM-R Architecture**  
   ViSoBERT leverages the robust multilingual capabilities of the XLM-R (Cross-lingual Language Model - RoBERTa) architecture, inheriting its powerful transformer-based design and masked language model pre-training approach.
 
-  ![BERT Architecture](https://lamarr-institute.org/wp-content/uploads/BERT_EN.png "BERT Architecture")
+  ![BERT Architecture](images/bert_diagram.png "BERT Architecture")
 
 
 - **Custom Tokenizer Tailored to Social Media**  
