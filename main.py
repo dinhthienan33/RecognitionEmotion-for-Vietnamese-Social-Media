@@ -18,6 +18,7 @@ logging.set_verbosity_error()
 load_dotenv()
 viso_model_path = os.getenv('VISO_MODEL_PATH')
 phobert_model_path = os.getenv('PHOBERT_MODEL_PATH')
+vsvisobert_model_path = os.getenv("VS_VISOBERT_PATH")
 
 ############ MODEL SETUP ############
 class EmotionClassifier(nn.Module):
@@ -52,6 +53,7 @@ def infer(text, tokenizer, model, max_len=120):
     output = model(input_ids, attention_mask)
     _, y_pred = torch.max(output, dim=1)
     return class_names[y_pred]
+    
 def llm_infer(query):
     prompt= f"""
     Hãy phân loại câu dưới đây thành 1 trong 7 lớp sau : 'Enjoyment', 'Disgust', 'Sadness', 'Anger', 'Surprise', 'Fear', 'Other'
@@ -104,13 +106,16 @@ with MainTab:
     st.markdown("""
     Ứng dụng phân loại câu thành 1 trong 7 cảm xúc: Enjoyment, Disgust, Sadness, Anger, Surprise, Fear, Other.
     """)
-    genre = st.radio("Choose model", ["VisoBert", "PhoBert","LLM"], index=0)
+    genre = st.radio("Choose model", ["VisoBert", "VS VisoBert", "PhoBert", "LLM"], index=0)
     st.write("You selected:", genre)
 
     # Load the selected model and tokenizer
     if genre == "VisoBert":
         tokenizer = AutoTokenizer.from_pretrained("uitnlp/visobert")
         model = initialize_model("uitnlp/visobert", viso_model_path)
+    elif genre == "VS VisoBert":
+        tokenizer = AutoTokenizer.from_pretrained("5CD-AI/Vietnamese-Sentiment-visobert")
+        model = initialize_model("5CD-AI/Vietnamese-Sentiment-visobert", vsvisobert_model_path)
     elif genre == "PhoBert":
         tokenizer = AutoTokenizer.from_pretrained("vinai/phobert-base")
         model = initialize_model("vinai/phobert-base", phobert_model_path)
