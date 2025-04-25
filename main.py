@@ -3,12 +3,15 @@ import streamlit as st
 import pandas as pd
 import torch
 import torch.nn as nn
+from bertviz import head_view
+import matplotlib.pyplot as plt
 from transformers import AutoModel, AutoTokenizer
 from pyvi import ViTokenizer
 from dotenv import load_dotenv
 import os
 import warnings
 from groq import Groq
+
 # Suppress warnings and logging
 warnings.filterwarnings("ignore")
 from transformers import logging
@@ -18,8 +21,6 @@ logging.set_verbosity_error()
 load_dotenv()
 viso_model_path = os.getenv('VISO_MODEL_PATH')
 phobert_model_path = os.getenv('PHOBERT_MODEL_PATH')
-vsvisobert_model_path = os.getenv("VS_VISOBERT_PATH")
-
 ############ MODEL SETUP ############
 class EmotionClassifier(nn.Module):
     def __init__(self, model_name, n_classes=7):
@@ -52,8 +53,7 @@ def infer(text, tokenizer, model, max_len=120):
     attention_mask = encoded['attention_mask'].to(device)
     output = model(input_ids, attention_mask)
     _, y_pred = torch.max(output, dim=1)
-    return class_names[y_pred]
-    
+    return class_names[y_pred]    
 def llm_infer(query):
     prompt= f"""
     Hãy phân loại câu dưới đây thành 1 trong 7 lớp sau : 'Enjoyment', 'Disgust', 'Sadness', 'Anger', 'Surprise', 'Fear', 'Other'
@@ -89,7 +89,7 @@ with c2:
     st.title("Phân loại cảm xúc tiếng Việt trên mạng xã hội")
 
 ############ TABBED NAVIGATION ############
-MainTab, InfoTab = st.tabs(["Main", "Info"])
+MainTab, VisualizeTab, InfoTab = st.tabs(["Main", "Visualize Attention", "Info"])
 
 with InfoTab:
     st.subheader("Đồ án môn NLP_CS221.P12")
@@ -106,18 +106,15 @@ with MainTab:
     st.markdown("""
     Ứng dụng phân loại câu thành 1 trong 7 cảm xúc: Enjoyment, Disgust, Sadness, Anger, Surprise, Fear, Other.
     """)
-    genre = st.radio("Choose model", ["VisoBert", "VS VisoBert", "PhoBert", "LLM"], index=0)
+    genre = st.radio("Choose model", ["VisoBert", "PhoBert", "LLM"], index=0)
     st.write("You selected:", genre)
 
     # Load the selected model and tokenizer
     if genre == "VisoBert":
-        tokenizer = AutoTokenizer.from_pretrained("uitnlp/visobert")
-        model = initialize_model("uitnlp/visobert", viso_model_path)
-    elif genre == "VS VisoBert":
-        tokenizer = AutoTokenizer.from_pretrained("5CD-AI/Vietnamese-Sentiment-visobert")
-        model = initialize_model("5CD-AI/Vietnamese-Sentiment-visobert", vsvisobert_model_path)
+        tokenizer = AutoTokenizer.from_pretrained("5CD-AI/Vietnamese-Sentiment-visobert",output_attentions=True)
+        model = initialize_model("5CD-AI/Vietnamese-Sentiment-visobert", viso_model_path)        
     elif genre == "PhoBert":
-        tokenizer = AutoTokenizer.from_pretrained("vinai/phobert-base")
+        tokenizer = AutoTokenizer.from_pretrained("vinai/phobert-base",output_attentions=True)
         model = initialize_model("vinai/phobert-base", phobert_model_path)
     else :
         client = Groq(
@@ -126,8 +123,8 @@ with MainTab:
 
     with st.form(key="classifier_form"):
         pre_defined_keyphrases = [
-            "lo học đi . yêu đương gì hay lại thích học sinh học",
-            "uớc gì sau này về già vẫn có thể như cụ này :))",
+            "mỗi lần coi lại sởn gai ốc",
+            "ngưỡng mộ ông bà á . ông bà đáng yêu ghê",
             "nghe đi rồi khóc 1 trận cho thoải mái . đừng cố gồng mình lên nữa"
         ]
         text = st.text_area(
@@ -158,16 +155,15 @@ with MainTab:
                 "Download Results as CSV", convert_df(df),
                 file_name="classification_results.csv", mime="text/csv"
             )
+    ############ SIDEBAR HISTORY ############
+    st.sidebar.header("Lịch sử truy vấn")
+    if "history" not in st.session_state:
+        st.session_state.history = []
 
-############ SIDEBAR HISTORY ############
-st.sidebar.header("Lịch sử truy vấn")
-if "history" not in st.session_state:
-    st.session_state.history = []
-
-if submit_button:
-    st.session_state.history.extend(lines)
-    for i, entry in enumerate(st.session_state.history[::-1], 1):  # Reverse the list to show recent first
-        st.sidebar.markdown(f"**{i}.** {entry}")
-if st.sidebar.button("Clear History"):
-    st.session_state.history = []
-    st.sidebar.success("History cleared.")
+    if submit_button:
+        st.session_state.history.extend(lines)
+        for i, entry in enumerate(st.session_state.history[::-1], 1):  # Reverse the list to show recent first
+            st.sidebar.markdown(f"**{i}.** {entry}")
+    if st.sidebar.button("Clear History"):
+        st.session_state.history = []
+        st.sidebar.success("History cleared.")
