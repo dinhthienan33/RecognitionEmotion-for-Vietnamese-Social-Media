@@ -1,3 +1,4 @@
 /models
 /visobert_model
 .codegpt
+.env

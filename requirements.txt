@@ -6,3 +6,6 @@ pandas
 numpy
 sentencepiece
 python-dotenv
+matplotlib
+bertviz
+groq
